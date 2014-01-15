@@ -1,0 +1,150 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9690A2C-0AAE-4337-85F3-B923887130DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperPag.Controller</RootNamespace>
+    <AssemblyName>SuperPag.Controller</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Config\handshakeconfigurationedit.cs" />
+    <Compile Include="Commands\Config\handshakeconfigurationhtmledit.cs" />
+    <Compile Include="Commands\Config\handshakeconfigurationlist.cs" />
+    <Compile Include="Commands\Config\handshakeconfigurationxmledit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupABNedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupBBedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupBoletoedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupBradescoedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupItaushoplineedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupKomerciedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetuplist.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupMosetedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupPaymentClientVirtualedit.cs" />
+    <Compile Include="Commands\Config\paymentagentsetupVBVedit.cs" />
+    <Compile Include="Commands\Config\storedetail.cs" />
+    <Compile Include="Commands\Config\storeedit.cs" />
+    <Compile Include="Commands\Config\storelist.cs" />
+    <Compile Include="Commands\Config\storepaymentformdetail.cs" />
+    <Compile Include="Commands\Config\storepaymentformedit.cs" />
+    <Compile Include="Commands\Config\storepaymentinstallmentsedit.cs" />
+    <Compile Include="Commands\capturavbv.cs" />
+    <Compile Include="Commands\ExtratoFinancial2.cs" />
+    <Compile Include="Commands\ExtratoFilter.cs" />
+    <Compile Include="Commands\ExtratoFinancial.cs" />
+    <Compile Include="Commands\ExtratoMovement.cs" />
+    <Compile Include="Commands\home.cs" />
+    <Compile Include="Commands\NavigationFilter.cs" />
+    <Compile Include="Commands\NavigationList.cs" />
+    <Compile Include="Commands\orderdetail.cs" />
+    <Compile Include="Commands\orderlist.cs" />
+    <Compile Include="Commands\ordersearch.cs" />
+    <Compile Include="Commands\ordertransactiondetail.cs" />
+    <Compile Include="Commands\postslist.cs" />
+    <Compile Include="Commands\reenviarboleto.cs" />
+    <Compile Include="Commands\refazerboleto.cs" />
+    <Compile Include="Commands\transactiondetail.cs" />
+    <Compile Include="Commands\transactionlist.cs" />
+    <Compile Include="Commands\transactionsearch.cs" />
+    <Compile Include="Commands\user.cs" />
+    <Compile Include="Events\Config\handshakeconfigurationedit.cs" />
+    <Compile Include="Events\Config\handshakeconfigurationhtmledit.cs" />
+    <Compile Include="Events\Config\handshakeconfigurationlist.cs" />
+    <Compile Include="Events\Config\handshakeconfigurationxmledit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupABNedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupBBedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupBoletoedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupBradescoedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupItaushoplineedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupKomerciedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetuplist.cs" />
+    <Compile Include="Events\Config\paymentagentsetupMosetedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupPaymentClientVirtualedit.cs" />
+    <Compile Include="Events\Config\paymentagentsetupVBVedit.cs" />
+    <Compile Include="Events\Config\storedetail.cs" />
+    <Compile Include="Events\Config\storeedit.cs" />
+    <Compile Include="Events\Config\storelist.cs" />
+    <Compile Include="Events\Config\storepaymentformdetail.cs" />
+    <Compile Include="Events\Config\storepaymentformedit.cs" />
+    <Compile Include="Events\Config\storepaymentinstallmentsedit.cs" />
+    <Compile Include="Events\ExtratoFinancial2.cs" />
+    <Compile Include="Events\ExtratoFilter.cs" />
+    <Compile Include="Events\ExtratoFinancial.cs" />
+    <Compile Include="Events\ExtratoMovement.cs" />
+    <Compile Include="Events\home.cs" />
+    <Compile Include="Events\NavigationFilter.cs" />
+    <Compile Include="Events\orderdetail.cs" />
+    <Compile Include="Events\orderlist.cs" />
+    <Compile Include="Events\ordersearch.cs" />
+    <Compile Include="Events\ordertransactiondetail.cs" />
+    <Compile Include="Events\reenviarboleto.cs" />
+    <Compile Include="Events\refazerboleto.cs" />
+    <Compile Include="Events\transactiondetail.cs" />
+    <Compile Include="Events\transactionlist.cs" />
+    <Compile Include="Events\transactionsearch.cs" />
+    <Compile Include="Maps\Commands.cs" />
+    <Compile Include="Maps\Views.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\ControllerContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperPag.Framework\SuperPag.Framework.csproj">
+      <Project>{FC32C14C-F516-4BC2-88CC-C500F70FF278}</Project>
+      <Name>SuperPag.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperPag\SuperPag.csproj">
+      <Project>{E95DEDC1-0E46-4194-8280-069E9C8B9353}</Project>
+      <Name>SuperPag</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

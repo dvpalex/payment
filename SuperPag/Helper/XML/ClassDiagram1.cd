@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="SuperPag.Helper.Xml.Request.request" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrder" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAQACAAAEAAgAAAAAAAAAAEAAAAAAIABEAoAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumer" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporate" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAQRAAAAAAAAQAAgAIBQAAAAAAAEAAAkAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporateEmail" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.genericPaymentFormDetail" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.genericPaymentFormDetailBoletoInformation" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.genericPaymentFormDetailCreditCardInformation" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>EAAAQCABBAAAAACAEAAAQhBAAKEEEAQAAAAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporatePhone" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>gAAEAAAgAAACQAAAIAAAAAAggAARAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporateBillingAddress" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPerson" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAYRAAAAgABAAAAgBIBAgBAABAAEAAAgAIAAIKEAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPersonEmail" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPersonPhone" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>gAAEAAAgAAACQAAAIAAAAAAggAARAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPersonBillingAddress" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetail" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAABAADAAgAAAAAAACAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetailItem" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAACACAAAAAAAAAAIAAAAAAAIAACACCEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetailRate" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAACAAAAAAACAAAAIAAEAAAAAAABgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetailDeliveryAddress" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderPayments" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderPaymentsPayment" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>RVQIBAAAAAAAAAACAMAsAoAAAAAAgAAAAAAAAQEAcEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderPaymentsPaymentInstallments" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AgAAACABAABCAAAAIAAQAAABAAAhAACAQAAAAAIAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderRecurrences" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderRecurrencesRecurrence" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>QRAACAgAAAAAQAAAAEAkAACAAAAAgAAAAAAAAACIAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SuperPag.Helper.Xml.Request.capture" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.phoneType" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AACAQAAAAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.gender" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.rate" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.generate" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.type" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.status" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.batch" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

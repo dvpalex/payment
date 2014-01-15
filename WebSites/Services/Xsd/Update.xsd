@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="update">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="order" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="consumer" minOccurs="0">
+                      <xs:complexType>
+                        <xs:choice>
+                          <xs:element name="corporate">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="emails" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="email" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:attribute name="address" type="xs:string" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="phones" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="phone" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:attribute name="type" type="phoneType" use="required" />
+                                          <xs:attribute name="countryCode" type="xs:unsignedByte" use="optional" />
+                                          <xs:attribute name="ddd" type="xs:unsignedByte" use="optional" />
+                                          <xs:attribute name="number" type="xs:unsignedInt" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="billingAddress" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:attribute name="location" type="xs:string" use="optional" />
+                                    <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                                    <xs:attribute name="complement" type="xs:string" use="optional" />
+                                    <xs:attribute name="district" type="xs:string" use="optional" />
+                                    <xs:attribute name="postalCode" type="xs:unsignedInt" use="required" />
+                                    <xs:attribute name="city" type="xs:string" use="optional" />
+                                    <xs:attribute name="state" type="xs:string" use="optional" />
+                                    <xs:attribute name="country" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="cnpj" type="xs:unsignedLong" use="required" />
+                              <xs:attribute name="ie" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="person">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="emails" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="email" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:attribute name="address" type="xs:string" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="phones" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="phone" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:attribute name="type" type="phoneType" use="required" />
+                                          <xs:attribute name="countryCode" type="xs:unsignedByte" use="optional" />
+                                          <xs:attribute name="ddd" type="xs:unsignedByte" use="optional" />
+                                          <xs:attribute name="number" type="xs:unsignedInt" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="billingAddress" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:attribute name="location" type="xs:string" use="optional" />
+                                    <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                                    <xs:attribute name="complement" type="xs:string" use="optional" />
+                                    <xs:attribute name="district" type="xs:string" use="optional" />
+                                    <xs:attribute name="postalCode" type="xs:unsignedInt" use="required" />
+                                    <xs:attribute name="city" type="xs:string" use="optional" />
+                                    <xs:attribute name="state" type="xs:string" use="optional" />
+                                    <xs:attribute name="country" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="cpf" type="xs:unsignedLong" use="required" />
+                              <xs:attribute name="birthDate" type="xs:date" use="optional" />
+                              <xs:attribute name="gender" type="gender" use="optional" />
+                              <xs:attribute name="occupation" type="xs:string" use="optional" />
+                              <xs:attribute name="civilState" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:choice>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="detail" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="itens">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="item" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:attribute name="code" type="xs:string" use="required" />
+                                    <xs:attribute name="value" type="xs:unsignedLong" use="required" />
+                                    <xs:attribute name="quantity" type="xs:unsignedInt" use="required" />
+                                    <xs:attribute name="description" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="rates" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="rate" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:attribute name="type" type="rate" use="required" />
+                                    <xs:attribute name="amount" type="xs:unsignedLong" use="required" />
+                                    <xs:attribute name="description" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="deliveryAddress" minOccurs="0">
+                            <xs:complexType>
+                              <xs:attribute name="location" type="xs:string" use="optional" />
+                              <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                              <xs:attribute name="complement" type="xs:string" use="optional" />
+                              <xs:attribute name="district" type="xs:string" use="optional" />
+                              <xs:attribute name="postalCode" type="xs:unsignedInt" use="required" />
+                              <xs:attribute name="city" type="xs:string" use="optional" />
+                              <xs:attribute name="state" type="xs:string" use="optional" />
+                              <xs:attribute name="country" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:choice>
+                      <xs:element name="payments">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="payment">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element name="paymentFormDetail" minOccurs="0" type="genericPaymentFormDetail" />
+                                  <xs:element name="installments" minOccurs="0">
+                                    <xs:complexType>
+                                      <xs:attribute name="quantity" type="xs:unsignedInt" use="required" />
+                                      <xs:attribute name="generate" type="generate" use="optional" />
+                                      <xs:attribute name="interest" type="xs:decimal" use="optional" />
+                                      <xs:attribute name="type" type="type" use="optional" />
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="amount" type="xs:unsignedLong" use="optional" />
+                                <xs:attribute name="form" type="form" use="optional" />
+                                <xs:attribute name="date" type="xs:date" use="optional" />
+                                <xs:attribute name="batch" type="batch" use="optional" />
+                                <xs:attribute name="currency" type="xs:unsignedShort" use="optional" />
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="recurrences">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="recurrence">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element name="paymentFormDetail" minOccurs="0" type="genericPaymentFormDetail" />
+                                </xs:sequence>
+                                <xs:attribute name="amount" type="xs:unsignedLong" use="optional" />
+                                <xs:attribute name="form" type="form" use="optional" />
+                                <xs:attribute name="interval" type="interval" use="optional" />
+                                <xs:attribute name="startDate" type="xs:date" use="optional" />
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:unsignedLong" use="required" />
+                  <xs:attribute name="total" type="xs:unsignedLong" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="gender">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="M" />
+      <xs:enumeration value="F" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="rate">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="shipping" />
+      <xs:enumeration value="discount" />
+      <xs:enumeration value="extra" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="form">
+    <xs:restriction base="xs:unsignedShort">
+      <xs:enumeration value="6" />
+      <xs:enumeration value="9" />
+      <xs:enumeration value="12" />
+      <xs:enumeration value="15" />
+      <xs:enumeration value="22" />
+      <xs:enumeration value="23" />
+      <xs:enumeration value="24" />
+      <xs:enumeration value="25" />
+      <xs:enumeration value="26" />
+      <xs:enumeration value="27" />
+      <xs:enumeration value="28" />
+      <xs:enumeration value="29" />
+      <xs:enumeration value="34" />
+      <xs:enumeration value="38" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="status">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="paid" />
+      <xs:enumeration value="cancelled" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="batch">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="true" />
+      <xs:enumeration value="false" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="generate">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="integral" />
+      <xs:enumeration value="parcial" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="merchant" />
+      <xs:enumeration value="acquirer" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="interval">
+    <xs:restriction base="xs:unsignedShort">
+      <xs:enumeration value="30" />
+      <xs:enumeration value="60" />
+      <xs:enumeration value="90" />
+      <xs:enumeration value="180" />
+      <xs:enumeration value="360" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="capture">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="auto" />
+      <xs:enumeration value="manual" />
+      <xs:enumeration value="schedule" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="phoneType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="business" />
+      <xs:enumeration value="home" />
+      <xs:enumeration value="cell" />
+      <xs:enumeration value="fax" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="genericPaymentFormDetail">
+    <xs:choice>
+      <xs:element name="creditCardInformation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="cardNumber" type="xs:unsignedLong" />
+            <xs:element name="securityCode" type="xs:unsignedInt" />
+            <xs:element name="cardHolder" type="xs:string" />
+            <xs:element name="expireDate" type="xs:gYearMonth" />
+            <xs:element name="capture" type="capture" minOccurs="0" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="boletoInformation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="dueDate" type="xs:date" />
+            <xs:element name="instructions" type="xs:string" minOccurs="0" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <form>
+    <site>OFERTA</site>
+    <n5ded746b8f924f2e>1BCEA01E8CB047EFFD71DA0BE2637C7A9BB6F97A7DBC</n5ded746b8f924f2e>
+    <n91d4c3128bf7da7f>FC62410815504368</n91d4c3128bf7da7f>
+    <valida_key>1</valida_key>
+    
+    <bandeira>23</bandeira>
+    <pqtdparcelas>6</pqtdparcelas>
+    <ppagamento>2</ppagamento>
+    <state>smartpagthankyou</state>
+    <spv>209700</spv>
+    <sfrete>0</sfrete>
+    <qtd_1>3</qtd_1>
+    <cod_1>9645Q1P00</cod_1>
+    <des_1>ThinkCentre M55e</des_1>
+    <val_1>339069</val_1>
+    <qtd_2>1</qtd_2>
+    <cod_2>DISCOUNT</cod_2>
+    <des_2>Cart Discount</des_2>
+    <val_2>-807507</val_2>
+    <sitem>2</sitem>
+    <urlretornoloja>https://www-1.ibm.com/lenovoinfo/shop/br/readytobuy/BRCheckout.wss?state=smartpagthankyou&amp;smartpag_method=GET</urlretornoloja>
+    <urlpostloja>https://www-1.ibm.com/lenovoinfo/shop/br/readytobuy/BRCheckout.wss?state=smartpagthankyou&amp;smartpag_method=GET</urlpostloja>
+    <linkbotao6>https://www-1.ibm.com/lenovoinfo/shop/br/readytobuy/BRCheckout.wss?state=smartpagthankyou&amp;smartpag_method=GET</linkbotao6>
+    <urlbotao6>https://www-1.ibm.com/lenovoinfo/shop/br/readytobuy/images/b/b_voltar_lenovo.gif</urlbotao6>
+    <show_tela_finalizacao>0</show_tela_finalizacao>
+    <envia_email_cliente>0</envia_email_cliente>
+    <frame50>0</frame50>
+    <tipo_acao>1,2,3,8,9,10</tipo_acao>
+    <nome>Carlos Lima</nome>
+    <tipo_pessoa>PJ</tipo_pessoa>
+    <cpf></cpf>
+    <endereco></endereco>
+    <complemento></complemento>
+    <bairro></bairro>
+    <cidade></cidade>
+    <cep></cep>
+    <estado>RJ</estado>
+    <endereco_d></endereco_d>
+    <complemento_d></complemento_d>
+    <bairro_d></bairro_d>
+    <cidade_d></cidade_d>
+    <cep_d></cep_d>
+    <estado_d>RJ</estado_d>
+    <fone>2125379943</fone>
+    <fax>2125379943</fax>
+    <nasc></nasc>
+    <email>carloslima@caminhoa.com.br</email>
+    <cgc>39137443000326</cgc>
+    <razao_pj>Farmacia Caminhoa Homeopatia Ltda</razao_pj>
+    <inscricao_pj>ISENTO</inscricao_pj>
+    <nome_resp_pj>Carlos Lima</nome_resp_pj>
+    <cpf_resp_pj></cpf_resp_pj>
+    <q></q>
+    <v>15</v>
+    <lang>pt</lang>
+    <cc>br</cc>
+    
+  </form>
+  <queryString />
+</root>

@@ -1,0 +1,201 @@
+﻿<xs:schema id="NewDataSet" targetNamespace="urn:BasePayment-schema" xmlns:mstns="urn:BasePayment-schema" xmlns="urn:BasePayment-schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="pedido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="numero_pedido" type="numero_pedido">
+        </xs:element>
+        <xs:element name="valor_total_pedido" type="xs:int" />
+        <xs:element name="valor_frete_pedido" type="xs:int" />
+        <xs:element name="itens">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="quantidade_pedido" type="xs:int" />
+              <xs:element name="item" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="codigo_item" type="stringobrigatoria" />
+                    <xs:element name="descricao_item" type="stringobrigatoria" />
+                    <xs:element name="quantidade_item" type="xs:int" />
+                    <xs:element name="valor_unitario_item" type="xs:int" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dados_cliente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice>
+                <xs:element name="pessoa_fisica">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="nome_pf" type="stringobrigatoria" />
+                      <xs:element name="cpf_pf" type="stringobrigatoria" />
+                      <xs:element name="data_nascimento_pf" type="xs:string" minOccurs="0" />
+                      <xs:element name="sexo_pf" type="sexo" minOccurs="0" />
+                      <xs:element name="estado_civil_pf" type="xs:string" minOccurs="0" />
+                      <xs:element name="profissao_pf" type="xs:string" minOccurs="0" />
+                      <xs:element name="email_pf" type="xs:string" minOccurs="0" />
+                      <xs:element name="telefone_pf" type="xs:string" minOccurs="0" />
+                      <xs:element name="fax_pf" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="pessoa_juridica">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="CGC_pj" type="stringobrigatoria" />
+                      <xs:element name="razao_social_pj" type="stringobrigatoria" />
+                      <xs:element name="email_pj" type="xs:string" minOccurs="0" />
+                      <xs:element name="telefone_pj" type="xs:string" minOccurs="0" />
+                      <xs:element name="fax_pj" type="xs:string" minOccurs="0" />
+                      <xs:element name="inscricao_estadual_pj" type="xs:string" minOccurs="0" />
+                      <xs:element name="cpf_responsavel_pj" type="xs:string" minOccurs="0" />
+                      <xs:element name="nome_responsavel_pj" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+              <xs:element name="endereco_cobranca">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="logradouro_ec" type="xs:string" minOccurs="0" />
+                    <xs:element name="endereco_ec" type="stringobrigatoria" />
+                    <xs:element name="numero_ec" type="xs:string" minOccurs="0" />
+                    <xs:element name="complemento_ec" type="xs:string" minOccurs="0" />
+                    <xs:element name="bairro_ec" type="xs:string" minOccurs="0" />
+                    <xs:element name="cidade_ec" type="stringobrigatoria" />
+                    <xs:element name="cep_ec" type="cep" />
+                    <xs:element name="estado_ec" type="stringobrigatoria" />
+                    <xs:element name="pais_ec" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="endereco_entrega">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nome_responsavel_ee" type="xs:string" minOccurs="0" />
+                    <xs:element name="telefone_responsavel_ee" type="xs:string" minOccurs="0" />
+                    <xs:element name="logradouro_ee" type="xs:string" minOccurs="0" />
+                    <xs:element name="endereco_ee" type="stringobrigatoria" />
+                    <xs:element name="numero_ee" type="xs:string" minOccurs="0" />
+                    <xs:element name="complemento_ee" type="xs:string" minOccurs="0" />
+                    <xs:element name="bairro_ee" type="xs:string" minOccurs="0" />
+                    <xs:element name="cidade_ee" type="stringobrigatoria" />
+                    <xs:element name="cep_ee" type="cep" />
+                    <xs:element name="estado_ee" type="stringobrigatoria" />
+                    <xs:element name="pais_ee" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="setup_loja" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="urls">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="post_final" type="xs:string" minOccurs="0" />
+                    <xs:element name="link_retorno" type="stringobrigatoria" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="parametros_opcionais" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="param_op1_ped" type="xs:string" minOccurs="0" />
+              <xs:element name="param_op2_ped" type="xs:string" minOccurs="0" />
+              <xs:element name="param_op3_ped" type="xs:string" minOccurs="0" />
+              <xs:element name="post_xml" type="flag2" minOccurs="0" />
+              <xs:element name="forma_pagto" type="xs:string" minOccurs="0" />
+              <xs:element name="bandeira" type="xs:string" minOccurs="0" />
+              <xs:element name="pqtdparcelas" type="intoubranco" minOccurs="0" />
+              <xs:element name="show_tela_finalizacao" type="flag" minOccurs="0" />
+              <xs:element name="frame50" type="flag" minOccurs="0" />
+              <xs:element name="instrucao_finalizacao" type="xs:string" minOccurs="0" />
+              <xs:element name="instrucao_boleto" type="xs:string" minOccurs="0" />
+              <xs:element name="data_boleto" type="xs:string" minOccurs="0" />
+              <xs:element name="urlbotao1" type="xs:string" minOccurs="0" />
+              <xs:element name="urlbotao2" type="xs:string" minOccurs="0" />
+              <xs:element name="urlbotao3" type="xs:string" minOccurs="0" />
+              <xs:element name="urlbotao4" type="xs:string" minOccurs="0" />
+              <xs:element name="urlbotao5" type="xs:string" minOccurs="0" />
+              <xs:element name="urlbotao6" type="xs:string" minOccurs="0" />
+              <xs:element name="urlbotao7" type="xs:string" minOccurs="0" />
+              <xs:element name="link_botao6" type="xs:string" minOccurs="0" />
+              <xs:element name="target" type="xs:string" minOccurs="0" />
+              <xs:element name="envia_email_cliente" type="flag" minOccurs="0" />
+              <xs:element name="show_valor_total" type="flag" minOccurs="0" />
+              <xs:element name="COB_QUANTIDADE" type="intoubranco" minOccurs="0" />
+              <xs:element name="COB_LIQ_1PAR" type="flag" minOccurs="0" />
+              <xs:element name="COB_DATA_BASE_AGENDAMENTO" type="xs:string" minOccurs="0" />
+              <xs:element name="COB_RECORRENCIA" type="flag" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="numero_pedido">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="20" />
+      <xs:minLength value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="cep">
+    <xs:restriction base="xs:int">
+      <xs:totalDigits value="8" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="flag">
+    <xs:union>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="0">
+          </xs:maxLength>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType>
+        <xs:restriction base="xs:unsignedByte">
+          <xs:pattern value="1|0" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+  <xs:simpleType name="flag2">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="S|N" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="stringobrigatoria">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1">
+      </xs:minLength>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="sexo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="M|F" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="intoubranco">
+    <xs:union>
+      <xs:simpleType>
+        <xs:restriction base="xs:int">
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:maxLength value="0">
+          </xs:maxLength>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+</xs:schema>

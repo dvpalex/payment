@@ -1,0 +1,14 @@
+<Boleto>
+  <LocalPagamento value="PAGAVEL PREFERENCIALMENTE NAS LOJAS PONTO FRIO"/>
+  <Cedente value="BANCO INVESTCRED S/A"/>
+  <AgenciaCodigoCedente value="001/00001.9"/>
+  <Aceite value="COM"/>
+  <CartNumBanco value="0107 380705 01 5"/>
+  <Especie value="REAL"/>
+  <Intrucao1 value="Pagável em Rede Bancária. Após vencimento, contatar: 4004-0199 para Capitais e Regiões Metropolitanas 0800–7030199 para demais localidades"/>
+  <Abatimento value="0,00"/>
+  <Intrucao2 value=""/>
+  <Deducoes value="0,00"/>
+  <Multa value="0,00"/>
+  <Acrescimos value="0,00"/>
+</Boleto>

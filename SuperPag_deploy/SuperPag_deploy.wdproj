@@ -1,0 +1,56 @@
+﻿<!-- 
+  Microsoft Visual Studio 2005 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkId=55111
+-->
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.60403</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E01C2F01-31C1-4299-B35E-8F15295D7ED1}</ProjectGuid>
+    <SourceWebPhysicalPath>..\WebSites\SuperPag</SourceWebPhysicalPath>
+    <SourceWebProject>{075BEABB-9B82-49A8-A7B5-CB48988F5D2C}|http://localhost/SuperPag</SourceWebProject>
+    <SourceWebVirtualPath>/SuperPag</SourceWebVirtualPath>
+    <SourceWebMetabasePath>/LM/W3SVC/1/ROOT/SuperPag/</SourceWebMetabasePath>
+    <SccProjectName>"%24/SuperPag.root/SuperPag_deploy", TYJAAAAA</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>SuperPag_deploy</SingleAssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>..\..\superpag_site\</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>SuperPag_deploy</SingleAssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperPag\SuperPag.csproj">
+      <Project>{E95DEDC1-0E46-4194-8280-069E9C8B9353}</Project>
+      <Name>SuperPag</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v8.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

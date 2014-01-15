@@ -1,0 +1,158 @@
+
+.tbPainelPOP
+{
+	border-top: white 1px solid;
+	font-size: 10px;
+	margin-bottom: 5px;
+	width: 100%;
+	border-bottom: darkgray 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.tbPainelPOP td
+{
+	padding-right: 4px;	
+	padding-left: 4px;
+	padding-top: 4px;
+	margin: 0px;
+}
+.tdHeaderPOP
+{
+	border-bottom: #336633 1px solid;
+	padding-bottom: 4px;
+	font-weight: bold;
+	color: darkslategray;
+	background-color: #c1d2c8;
+	text-align: center;
+}
+.tdCampoPOP
+{
+	padding-bottom: 4px;
+	font-weight: bold;
+	color: darkslategray;
+	background-color: #eef4f1;
+}
+.tdCampoPOP INPUT
+{
+
+	border-right: darkslategray 1px solid;
+	border-top: darkslategray 1px solid;
+	font-size: 10px;
+	border-left: darkslategray 1px solid;
+	width: 100%;
+	color: #000000;
+	line-height: 14px;
+	border-bottom: darkslategray 1px solid;
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	background-color: honeydew;
+	text-decoration: none;
+}
+.tdCampoPOP SELECT
+{
+	font-size: 10px;
+	line-height: 14px;
+	width: 200px;
+	color: #000000;
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	text-decoration: none;
+}
+.tdAcoesPOP
+{
+	padding-bottom: 4px;
+	text-align: left;
+	background-color: #EEF4F1;
+}
+.tdAcoesPOP INPUT
+{
+	border-right: darkgray 1px solid;
+	border-top: darkgray 1px solid;
+	font-size: 10px;
+	border-left: darkgray 1px solid;
+	color: #000000;
+	border-bottom: darkgray 1px solid;
+	font-family: Geneva, Arial, Helvetica, san-serif;
+	background-color: whitesmoke;
+	text-decoration: none;
+}
+.tbBarraFerramentasPOP
+{
+	margin-top: 0px;
+	font-size: 10px;
+	margin-bottom: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.tbBarraFerramentasPOP td
+{
+	padding: 0px;
+}
+.tdBarraFerramentasPOP INPUT
+{
+	border-right: darkgray 1px outset;
+	border-top: darkgray 1px outset;
+	font-size: 10px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	border-left: darkgray 1px outset;
+	color: #000000;
+	border-bottom: darkgray 1px outset;
+	font-family: Verdana, Arial, Helvetica, san-serif;
+	background-color: #dce6dc;
+	text-decoration: none;
+}
+.tbGridPOP
+{
+	border-left-style: none;
+	border-right-style: none;
+	margin-top: 0px;
+	width: 970px;
+}
+.PaginacaoPOP
+{
+	width: 970px;
+	text-align: left;
+	background: white;
+}
+.tbGridPOP td
+{
+	margin: 1px;
+	padding: 3px;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom: #B3CCBB 1px solid; 
+}
+.aspHeaderPOP
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: darkslategray;
+	background-color: #c1d2c8;
+	text-align: left;
+}
+.aspHeaderPOP td
+{
+	border-bottom: #336633 1px solid;
+	border-top: #336633 1px solid;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+.aspAlternateItemStylePOP
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	background-color: #ffffff;
+}
+.aspItemStylePOP
+{
+	font-size: 10px;
+	line-height: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	background-color: #EEF4F1;
+}
+.spanTituloPOP
+{
+	font-size: xx-small;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+}

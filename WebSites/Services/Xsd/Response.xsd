@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="order" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="payments">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="payment" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="installments">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="installment" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="paymentFormDetail">
+                                              <xs:complexType>
+                                                <xs:choice>
+                                                  <xs:element name="creditCardInformation">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element name="transactionId" type="xs:string" />
+                                                        <xs:element name="authorizationId" type="xs:string" />
+                                                        <xs:element name="returnCode" type="returnCode" />
+                                                        <xs:element name="acquirerReturnCode" type="xs:string" />
+                                                        <xs:element name="acquirerReturnMessage" type="xs:string" />
+                                                        <xs:element />
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="boletoInformation">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element name="number" type="xs:string" />
+                                                        <xs:element name="url" type="xs:string" />
+                                                        <xs:element name="typingLine" type="xs:string" />
+                                                        <xs:element name="paidValue" type="xs:unsignedLong" minOccurs="0" />
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="boletoInformationIPTE">
+                                                    <xs:complexType>
+                                                      <xs:sequence />
+                                                      <xs:attribute name="paymentAttemptId" type="xs:string" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="DebitoContaCorrenteInformation">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element name="Status" type="xs:int" />
+                                                        <xs:element name="DataVencimento" type="xs:dateTime" />
+                                                        <xs:element name="ValorAgendado" type="xs:decimal" />
+                                                        <xs:element name="NumInstituicao" type="xs:int" />
+                                                        <xs:element name="Ocorrencia" type="xs:string" />
+                                                        <xs:element name="DataProcessamento" type="xs:dateTime" />
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:choice>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute name="number" type="xs:unsignedLong" use="required" />
+                                          <xs:attribute name="status" type="installmentStatus" use="required" />
+                                          <xs:attribute name="date" type="xs:date" use="optional" />
+                                          <xs:attribute name="paymentDate" type="xs:date" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="status" type="paymentStatus" use="required" />
+                              <xs:attribute name="form" type="form" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:unsignedLong" use="required" />
+                  <xs:attribute name="reference" type="xs:string" use="required" />
+                  <xs:attribute name="total" type="xs:unsignedLong" use="required" />
+                  <xs:attribute name="status" type="orderStatus" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="batchId" type="xs:unsignedLong" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="orderStatus">
+    <xs:restriction base="xs:unsignedByte">
+      <xs:enumeration value="1" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="4" />
+      <xs:enumeration value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="paymentStatus">
+    <xs:restriction base="xs:unsignedByte">
+      <xs:enumeration value="1" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="4" />
+      <xs:enumeration value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="installmentStatus">
+    <xs:restriction base="xs:unsignedByte">
+      <xs:enumeration value="1" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="4" />
+      <xs:enumeration value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="form">
+    <xs:restriction base="xs:unsignedShort">
+      <xs:enumeration value="6" />
+      <xs:enumeration value="9" />
+      <xs:enumeration value="12" />
+      <xs:enumeration value="15" />
+      <xs:enumeration value="22" />
+      <xs:enumeration value="23" />
+      <xs:enumeration value="24" />
+      <xs:enumeration value="25" />
+      <xs:enumeration value="26" />
+      <xs:enumeration value="27" />
+      <xs:enumeration value="28" />
+      <xs:enumeration value="29" />
+      <xs:enumeration value="34" />
+      <xs:enumeration value="38" />
+      <xs:enumeration value="42" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="returnCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

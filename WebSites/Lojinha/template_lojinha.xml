@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+  <pedido>
+  	<numero_pedido>68</numero_pedido>
+ 	<valor_total_pedido>72000</valor_total_pedido>
+  	<valor_frete_pedido>000</valor_frete_pedido>
+  	<itens><quantidade_pedido>1</quantidade_pedido>
+		<item>
+  		<codigo_item>08291</codigo_item>
+  		<descricao_item>LAVADORA DE ROUPAS CONSUL CWI21AB</descricao_item>
+  		<quantidade_item>1</quantidade_item>
+  		<valor_unitario_item>72000</valor_unitario_item>
+  		</item></itens><dados_cliente><pessoa_fisica>
+  				<nome_pf>Ricardo Alves Leite</nome_pf>
+  				<cpf_pf>03166757686</cpf_pf>
+  				<sexo_pf>M</sexo_pf>
+	  			<estado_civil_pf>solteiro</estado_civil_pf>
+  				<profissao_pf>Gerente Adm</profissao_pf>
+  				<email_pf>petromec@terra.com.br</email_pf>
+  				<telefone_pf>2147483647</telefone_pf>
+  				<fax_pf></fax_pf>
+  			</pessoa_fisica><endereco_cobranca>
+  		<endereco_ec>R. Bernardino de Lima</endereco_ec>
+  		<numero_ec>41</numero_ec>
+  		<complemento_ec>401</complemento_ec>
+  		<bairro_ec>Gutierrez</bairro_ec>
+  		<cidade_ec>Belo Horizonte</cidade_ec>
+		<cep_ec>30430350</cep_ec><estado_ec>MG</estado_ec>
+  		<pais_ec>BR</pais_ec>
+  	</endereco_cobranca> 	<endereco_entrega>
+  		<nome_responsavel_ee>Ricardo Alves Leite</nome_responsavel_ee>
+  		<telefone_responsavel_ee></telefone_responsavel_ee>
+  		<endereco_ee>R. Bernardino de Lima</endereco_ee>
+  		<numero_ee>41</numero_ee>
+  		<complemento_ee>401</complemento_ee>
+  		<bairro_ee>Gutierrez</bairro_ee>
+  		<cidade_ee>Belo Horizonte</cidade_ee>
+		<cep_ee>30430350</cep_ee><estado_ee>MG</estado_ee>
+  		<pais_ee>BR</pais_ee>
+  	</endereco_entrega>
+  </dados_cliente>
+  <setup_loja>
+  	<urls>
+  		<post_final>http://www.ricardoeletro.com.br/alpha/finaliza_pedido2.php</post_final>
+  		<link_retorno>http://www.ricardoeletro.com.br/alpha/pedidos.php?pid=68</link_retorno>
+  	</urls>
+  </setup_loja>
+  <parametros_opcionais>
+  <forma_pagto>2</forma_pagto>
+  <bandeira>41</bandeira><Pqtdparcelas>6</Pqtdparcelas><post_xml>S</post_xml>
+  	<instrucao_boleto>Após o vencimento, não receber o pagamento.#|A sua compra está reservada até a data do vencimento.#|Após esta data, sua compra e boleto perdem a validade.#|O prazo de entrega é válido a partir da confirmação do pagamento deste documento.#|Informações: 31-3359-1811 ou pagamento@ricardoeletro.com</instrucao_boleto>
+		</parametros_opcionais>
+</pedido>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.superpag.com.br/Services" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.superpag.com.br/Services" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.superpag.com.br/Services">
+      <s:element name="GetTicket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="storeKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="XML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTicketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTicketResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="storeKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="storeKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="orderId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckRecurrence">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="storeKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="orderId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dateFrom" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dateTo" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckRecurrenceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckRecurrenceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="storeKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="orderId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="storeKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="updatedXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetTicketSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTicket" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:SendOrder" />
+  </wsdl:message>
+  <wsdl:message name="SendOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:SendOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckOrder" />
+  </wsdl:message>
+  <wsdl:message name="CheckOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckRecurrenceSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckRecurrence" />
+  </wsdl:message>
+  <wsdl:message name="CheckRecurrenceSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckRecurrenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelOrder" />
+  </wsdl:message>
+  <wsdl:message name="CancelOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateOrder" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpGetIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="XML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendOrderHttpGetIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="xml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckOrderHttpGetIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckRecurrenceHttpGetIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+    <wsdl:part name="dateFrom" type="s:string" />
+    <wsdl:part name="dateTo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckRecurrenceHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelOrderHttpGetIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderHttpGetIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="updatedXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpPostIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="XML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendOrderHttpPostIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="xml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckOrderHttpPostIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckRecurrenceHttpPostIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+    <wsdl:part name="dateFrom" type="s:string" />
+    <wsdl:part name="dateTo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckRecurrenceHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelOrderHttpPostIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderHttpPostIn">
+    <wsdl:part name="storeKey" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="updatedXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="PaymentSoap">
+    <wsdl:operation name="GetTicket">
+      <wsdl:input message="tns:GetTicketSoapIn" />
+      <wsdl:output message="tns:GetTicketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOrder">
+      <wsdl:input message="tns:SendOrderSoapIn" />
+      <wsdl:output message="tns:SendOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckOrder">
+      <wsdl:input message="tns:CheckOrderSoapIn" />
+      <wsdl:output message="tns:CheckOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckRecurrence">
+      <wsdl:input message="tns:CheckRecurrenceSoapIn" />
+      <wsdl:output message="tns:CheckRecurrenceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelOrder">
+      <wsdl:input message="tns:CancelOrderSoapIn" />
+      <wsdl:output message="tns:CancelOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <wsdl:input message="tns:UpdateOrderSoapIn" />
+      <wsdl:output message="tns:UpdateOrderSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PaymentHttpGet">
+    <wsdl:operation name="GetTicket">
+      <wsdl:input message="tns:GetTicketHttpGetIn" />
+      <wsdl:output message="tns:GetTicketHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOrder">
+      <wsdl:input message="tns:SendOrderHttpGetIn" />
+      <wsdl:output message="tns:SendOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckOrder">
+      <wsdl:input message="tns:CheckOrderHttpGetIn" />
+      <wsdl:output message="tns:CheckOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckRecurrence">
+      <wsdl:input message="tns:CheckRecurrenceHttpGetIn" />
+      <wsdl:output message="tns:CheckRecurrenceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelOrder">
+      <wsdl:input message="tns:CancelOrderHttpGetIn" />
+      <wsdl:output message="tns:CancelOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <wsdl:input message="tns:UpdateOrderHttpGetIn" />
+      <wsdl:output message="tns:UpdateOrderHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PaymentHttpPost">
+    <wsdl:operation name="GetTicket">
+      <wsdl:input message="tns:GetTicketHttpPostIn" />
+      <wsdl:output message="tns:GetTicketHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOrder">
+      <wsdl:input message="tns:SendOrderHttpPostIn" />
+      <wsdl:output message="tns:SendOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckOrder">
+      <wsdl:input message="tns:CheckOrderHttpPostIn" />
+      <wsdl:output message="tns:CheckOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckRecurrence">
+      <wsdl:input message="tns:CheckRecurrenceHttpPostIn" />
+      <wsdl:output message="tns:CheckRecurrenceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelOrder">
+      <wsdl:input message="tns:CancelOrderHttpPostIn" />
+      <wsdl:output message="tns:CancelOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <wsdl:input message="tns:UpdateOrderHttpPostIn" />
+      <wsdl:output message="tns:UpdateOrderHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PaymentSoap" type="tns:PaymentSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTicket">
+      <soap:operation soapAction="http://www.superpag.com.br/Services/GetTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOrder">
+      <soap:operation soapAction="http://www.superpag.com.br/Services/SendOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOrder">
+      <soap:operation soapAction="http://www.superpag.com.br/Services/CheckOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckRecurrence">
+      <soap:operation soapAction="http://www.superpag.com.br/Services/CheckRecurrence" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelOrder">
+      <soap:operation soapAction="http://www.superpag.com.br/Services/CancelOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <soap:operation soapAction="http://www.superpag.com.br/Services/UpdateOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PaymentSoap12" type="tns:PaymentSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTicket">
+      <soap12:operation soapAction="http://www.superpag.com.br/Services/GetTicket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOrder">
+      <soap12:operation soapAction="http://www.superpag.com.br/Services/SendOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOrder">
+      <soap12:operation soapAction="http://www.superpag.com.br/Services/CheckOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckRecurrence">
+      <soap12:operation soapAction="http://www.superpag.com.br/Services/CheckRecurrence" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelOrder">
+      <soap12:operation soapAction="http://www.superpag.com.br/Services/CancelOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <soap12:operation soapAction="http://www.superpag.com.br/Services/UpdateOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PaymentHttpGet" type="tns:PaymentHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetTicket">
+      <http:operation location="/GetTicket" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOrder">
+      <http:operation location="/SendOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOrder">
+      <http:operation location="/CheckOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckRecurrence">
+      <http:operation location="/CheckRecurrence" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelOrder">
+      <http:operation location="/CancelOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <http:operation location="/UpdateOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PaymentHttpPost" type="tns:PaymentHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetTicket">
+      <http:operation location="/GetTicket" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOrder">
+      <http:operation location="/SendOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOrder">
+      <http:operation location="/CheckOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckRecurrence">
+      <http:operation location="/CheckRecurrence" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelOrder">
+      <http:operation location="/CancelOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <http:operation location="/UpdateOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Payment">
+    <wsdl:port name="PaymentSoap" binding="tns:PaymentSoap">
+      <soap:address location="http://localhost/Services/Payment.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PaymentSoap12" binding="tns:PaymentSoap12">
+      <soap12:address location="http://localhost/Services/Payment.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PaymentHttpGet" binding="tns:PaymentHttpGet">
+      <http:address location="http://localhost/Services/Payment.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PaymentHttpPost" binding="tns:PaymentHttpPost">
+      <http:address location="http://localhost/Services/Payment.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<request>
+  <orders>
+    <order reference="1R" total="2580">
+      <consumer>
+        <person cpf="27781486803" name="Leandro Alves"/>
+      </consumer>
+      <detail>
+        <itens>
+          <item code="12" value="2580" quantity="1" description="Conta Superior"/>
+        </itens>
+      </detail>
+      <recurrences>
+        <recurrence form="29" amount="2580" interval="30">
+          <paymentFormDetail>
+            <boletoInformation>
+              <dueDate>2007-05-10</dueDate>
+              <instructions>Não cobrar após 30 dias do vencimento. Em caso de atraso no pagamento, cobrar multa de 2% e juros de 1% ao mês ou fração. Titulo sujeito a protesto.</instructions>
+            </boletoInformation>
+          </paymentFormDetail>
+        </recurrence>
+      </recurrences>
+    </order>
+  </orders>
+</request>

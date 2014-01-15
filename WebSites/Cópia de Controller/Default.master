@@ -1,0 +1,36 @@
+<%@ Master Language="C#" EnableTheming="true" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="_Default" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head id="Head1" runat="server">
+        <title>SUPERPAG - Controller</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <script type="text/javascript">
+            history.go(1);
+        </script>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div id="topo"> 
+                <span id="menu">
+                    <asp:Menu ID="MenuSgr" runat="server" SkinID="SgrMenu" DataSourceID="siteMap">
+                        <DynamicItemTemplate>
+                            <asp:Label ID="lblMenuItem" CssClass="menu-item-text" runat="server" Text='<%# Eval( "Text" ) %>' />
+                        </DynamicItemTemplate>     
+                     </asp:Menu>
+                </span>
+            </div>
+            <div id="TitlePanel">
+				<asp:Label id="lblPageTitle" runat="server">Programa de Compliance</asp:Label>
+            </div>
+            <div id="conteudo">
+                    <asp:ContentPlaceHolder ID="Conteudo" runat="server" >
+                    </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                 <asp:Label ID="lblCopyright" CssClass="lblCopyright" runat="server" Text=""></asp:Label>
+            </div>
+            <input type="hidden" id="__NavField"/>
+            <asp:SiteMapDataSource ID="siteMap" runat="server" ShowStartingNode="False" />
+        </form>
+     </body>
+</html>

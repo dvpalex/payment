@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.superpag.com.br/Services" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.superpag.com.br/Services" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.superpag.com.br/Services">
+      <s:element name="ConsultaPedido">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="chave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="senha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pedido" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaPedidoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaPedidoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultaPedidoSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultaPedido" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaPedidoSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultaPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaPedidoHttpGetIn">
+    <wsdl:part name="chave" type="s:string" />
+    <wsdl:part name="senha" type="s:string" />
+    <wsdl:part name="pedido" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaPedidoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaPedidoHttpPostIn">
+    <wsdl:part name="chave" type="s:string" />
+    <wsdl:part name="senha" type="s:string" />
+    <wsdl:part name="pedido" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaPedidoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="LegacyServiceSoap">
+    <wsdl:operation name="ConsultaPedido">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna as informações do pedido a partir da chave/pedido</wsdl:documentation>
+      <wsdl:input message="tns:ConsultaPedidoSoapIn" />
+      <wsdl:output message="tns:ConsultaPedidoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="LegacyServiceHttpGet">
+    <wsdl:operation name="ConsultaPedido">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna as informações do pedido a partir da chave/pedido</wsdl:documentation>
+      <wsdl:input message="tns:ConsultaPedidoHttpGetIn" />
+      <wsdl:output message="tns:ConsultaPedidoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="LegacyServiceHttpPost">
+    <wsdl:operation name="ConsultaPedido">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna as informações do pedido a partir da chave/pedido</wsdl:documentation>
+      <wsdl:input message="tns:ConsultaPedidoHttpPostIn" />
+      <wsdl:output message="tns:ConsultaPedidoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LegacyServiceSoap" type="tns:LegacyServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaPedido">
+      <soap:operation soapAction="http://www.superpag.com.br/Services/ConsultaPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LegacyServiceSoap12" type="tns:LegacyServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaPedido">
+      <soap12:operation soapAction="http://www.superpag.com.br/Services/ConsultaPedido" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LegacyServiceHttpGet" type="tns:LegacyServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ConsultaPedido">
+      <http:operation location="/ConsultaPedido" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LegacyServiceHttpPost" type="tns:LegacyServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ConsultaPedido">
+      <http:operation location="/ConsultaPedido" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LegacyService">
+    <wsdl:port name="LegacyServiceSoap" binding="tns:LegacyServiceSoap">
+      <soap:address location="http://localhost/services/LegacyService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LegacyServiceSoap12" binding="tns:LegacyServiceSoap12">
+      <soap12:address location="http://localhost/services/LegacyService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LegacyServiceHttpGet" binding="tns:LegacyServiceHttpGet">
+      <http:address location="http://localhost/services/LegacyService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LegacyServiceHttpPost" binding="tns:LegacyServiceHttpPost">
+      <http:address location="http://localhost/services/LegacyService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

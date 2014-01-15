@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home"  description="" roles="Merchant User, Administrator">
+	    <siteMapNode url="" title="Pedidos"  description="" roles="Merchant User, Administrator">
+        <siteMapNode url="~/SearchOrder.do" title="Pesquisar"  description="" roles="Merchant User, Administrator"/>
+        <siteMapNode url="~/SearchOrderDetailItem.do" title="Pesquisar (Itens)"  description="" roles="Merchant User, Administrator, WebAula User"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Transações"  description="" roles="Merchant User, Administrator">
+        <siteMapNode url="~/ShowHome.do" title="Sumário"  description="" roles="Merchant User, Administrator"/>
+        <siteMapNode url="~/SearchTransaction.do" title="Pesquisar"  description="" roles="Merchant User, Administrator"/>
+        <siteMapNode url="~/NavigationFilter.do" title="Navegação"  description="" roles="Merchant User, Administrator"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Posts"  description="" roles="Administrator">
+        <siteMapNode url="~/ListPosts.do" title="Listar"  description="" roles="Administrator"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Extrato"  description=""  roles="Merchant User, Administrator">
+        <siteMapNode url="~/ShowExtratoFilterFinancial.do" title="Financeiro"  description=""  roles="Merchant User, Administrator" />
+        <siteMapNode url="~/ShowExtratoFilterMovement.do" title="Movimento"  description=""  roles="Merchant User, Administrator" />
+      </siteMapNode>
+      <siteMapNode url="" title="Manutenção"  description="" roles="*">
+        <siteMapNode url="~/ChangePassword.do" title="Alterar Senha"  description="" roles="*"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Relatórios"  description="" roles="Herbalife User">
+        <siteMapNode url="~/ShowExtratoFilterFinancial2.do" title="Extrato Herbalife"  description="" roles="Herbalife User"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Configurações"  description="" roles="Suporte">
+        <siteMapNode url="~/ListStores.do" title="Lojas"  description="" roles="Suporte"/>
+        <siteMapNode url="~/ListHandshakeConfiguration.do" title="Handshakes"  description="" roles="Suporte"/>
+        <siteMapNode url="~/ListPaymentAgentSetup.do" title="Agentes"  description="" roles="Suporte"/>
+      </siteMapNode>
+      <siteMapNode url="login.aspx" title="Sair"  description="Encerrar Sessão" roles="*"/>
+    </siteMapNode>
+</siteMap>

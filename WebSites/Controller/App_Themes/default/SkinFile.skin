@@ -1,0 +1,52 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<%@ Register TagPrefix="fwc" Namespace="SuperPag.Framework.Web.WebControls" Assembly="SuperPag.Framework" %>
+
+<asp:Image SkinID="imgCycle" ImageUrl="images/icon_ciclos.gif"  runat="server" />
+<asp:Image SkinID="imgCompany" ImageUrl="images/icon_empresa2.gif"  runat="server" />
+<asp:Image SkinID="imgRisk" ImageUrl="images/icon_risco.gif"  runat="server" />
+<asp:Image SkinID="imgEmployee" ImageUrl="images/icon_funcio.gif"  runat="server" />
+<asp:Image SkinID="imgActionPlan" ImageUrl="images/icon_planoacao.gif"  runat="server" />
+<asp:Image SkinID="imgMatrix" ImageUrl="images/icon_matriz.gif"  runat="server" />
+<asp:Image SkinID="imgComplianceProgram" ImageUrl="images/icon_progcomp.gif"  runat="server" />
+<asp:Image SkinID="imgLossBase" ImageUrl="images/icon_baseperda.gif"  runat="server" />
+<asp:Image SkinID="imgBestPratices" ImageUrl="images/icon_melhoresP.gif"  runat="server" />
+                
+
+<asp:Menu runat="server" SkinID="SgrMenu" Orientation="Horizontal" Height="20" StaticEnableDefaultPopOutImage="false" StaticItemFormatString="&amp;nbsp {0} &amp;nbsp|">
+    <DynamicMenuStyle CssClass="menu-box" />
+    <DynamicMenuItemStyle CssClass="menu-item" />
+    <DynamicHoverStyle CssClass="menu-item-hover" />
+</asp:Menu>
+
+
+<fwc:MsgDataGrid runat="server" cssclass="tbGridLST" AutoGenerateColumns="False" AllowPaging="True" PageSize="40" PagerStyle-Visible="False">    
+    <AlternatingItemStyle CssClass="aspAlternateItemStyleLST"></AlternatingItemStyle>
+    <ItemStyle CssClass="aspItemStyleLST"></ItemStyle>
+    <HeaderStyle CssClass="aspHeaderLST"></HeaderStyle>
+    <FooterStyle CssClass="PaginacaoSUM"></FooterStyle>
+    <PagerStyle Visible="False"></PagerStyle>
+</fwc:MsgDataGrid>
+
+<asp:GridView runat="server" AutoGenerateColumns="False" CssClass="tbGridLST">
+    <AlternatingRowStyle CssClass="aspAlternateItemStyleLST"></AlternatingRowStyle>
+    <RowStyle CssClass="aspItemStyleLST"></RowStyle>
+    <HeaderStyle CssClass="aspHeaderLST"></HeaderStyle>
+    <FooterStyle CssClass="PaginacaoSUM"></FooterStyle>
+</asp:GridView>
+
+

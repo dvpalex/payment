@@ -1,0 +1,161 @@
+﻿/*
+SMARTPAG
+
+cor do menu #636163
+cor da barra superior #FFCC66
+cor padrao do texto #848284
+cor fundo zebrado #e7e3e7
+*/
+
+.linkboleto
+{
+    color: #848284;
+    text-decoration: underline;
+}
+.ddlPayments
+{
+    FONT-SIZE:10pt;
+    COLOR: #848284;
+    BORDER-TOP-STYLE:groove;
+    FONT-FAMILY:monospace;
+    BORDER-RIGHT-STYLE:groove;
+    BORDER-LEFT-STYLE:groove;
+    BORDER-BOTTOM-STYLE:groove;
+}
+
+#mainDiv
+{
+	width: 565px;
+	font-family: Verdana;
+	font-size: 10px;
+	color: #000000;
+}
+
+#topMenu
+{
+	background-color: #636163;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#midContent
+{
+	padding-right: 3px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+#botFooter
+{
+	width: 99%;
+	border-top: gainsboro 1px solid;
+	border-bottom: gainsboro 1px solid;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.footer
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #848284;
+	line-height: 10pt;
+}
+.databg
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #848284;
+	background-color: #ECECF5;
+}
+.databg2
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #848284;
+	background-color: #FFFFFF;
+}
+.dataheader
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #848284;
+	font-weight: bold;
+}
+.dataheader2
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: White;
+	background-color: #636163;
+	font-weight: bold;
+}
+.datatxt
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #848284;
+}
+.datatxt2
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #848284;
+}
+.instructions
+{
+	font-family: Verdana;
+	font-size: 10px;
+    color: #848284;
+    line-height: 15px;
+}
+.ajudatxt
+{
+	font-family: Verdana;
+	font-size: 10px;
+    color: Gray;
+}
+.buttonlnkEnd
+{
+	padding-top: 20px;
+	text-align: right;
+}
+.buttonbtnNext
+{
+	padding-top: 20px;
+	text-align: right;
+}
+.buttonlnkReturn
+{
+	padding-top: 10px;
+	text-align: left;
+}
+.fillRowTitle
+{
+	font-family: Verdana;
+	font-size: 10px;
+    color: #FFCC66;
+    line-height: 17px;
+    background-color: #EFEFEF;
+    padding: 5 5 5 5;
+    font-weight: bold;
+}
+.fillLabel
+{
+	font-family: Verdana;
+	font-size: 10px;
+    color: #000000;
+}
+.fillInstructions
+{
+	font-family: Verdana;
+	font-size: 9px;
+    color: #848284;
+}
+#FillConsumer input
+{
+	font-family: Verdana;
+	font-size: 10px;
+    color: #000000;
+    background-color: #FEFEFE;
+}

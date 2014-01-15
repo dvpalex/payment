@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<request>
+  <orders>
+    <order reference="5257" total="0990">
+      <consumer>
+        <person name="VALERIO ALBERTO DA COSTA" cpf="29037330827" gender="M">
+          <emails>
+            <email address="" />
+          </emails>
+          <phones>
+            <phone type="home" countryCode="55" ddd="51" number="99930482" />
+          </phones>
+          <billingAddress location="Rua Lourival Soares Rocha" number="900" complement="" district="Cruzeiro" postalCode="95074260" city="Caxias do Sul" state="RS" country="Brasil" />
+        </person>
+      </consumer>
+      <detail>
+        <itens>
+          <item code="21" value="9900" quantity="1" description="Nokia 1208" />         
+        </itens>                
+      </detail>
+      <recurrences>
+        <recurrence amount="0990" form="43" interval="30">
+          <paymentFormDetail>
+            <ContaCorrenteInformation>
+              <DigVerAg>0</DigVerAg>
+              <NumContCorrent>41859</NumContCorrent>
+              <DigVerCont>5</DigVerCont>
+              <NumAgencia>1860</NumAgencia>
+              <Vencimento>2008-10-30</Vencimento>
+            </ContaCorrenteInformation>
+          </paymentFormDetail>
+        </recurrence>
+      </recurrences>
+    </order>
+  </orders>
+</request>

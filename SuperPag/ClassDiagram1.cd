@@ -1,0 +1,3640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="SuperPag.Agents.Agent" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Agent.cs</FileName>
+      <HashCode>AAAAAAABAKCAAAAAAAABAAAAAAAACAAAAAAAAAAAAQg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SuperPag.Agents.WebAgent" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\WebAgent.cs</FileName>
+      <HashCode>AAAAAAABAKCAAAAAAAABAAAAAAAACAAAAAAAAAAAAQg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SuperPag.Agents.BB.Sonda" Collapsed="true">
+    <Position X="44.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\BB\Sonda.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.Boleto" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\Boleto.cs</FileName>
+      <HashCode>AAAAAAAAAAAQAAAAAABAAAAAAAAAAAgAAAAAAAEAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.BoletoBB" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\BoletoBB.cs</FileName>
+      <HashCode>AAAFAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.BoletoBradesco" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\BoletoBradesco.cs</FileName>
+      <HashCode>AAAFAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.BoletoHSBC" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\BoletoHSBC.cs</FileName>
+      <HashCode>AAABAAAAAAQAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.BoletoItau" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\BoletoItau.cs</FileName>
+      <HashCode>AAAFAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.BoletosBancariosInfo" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\BoletosBancariosInfo.cs</FileName>
+      <HashCode>AQAAAAAAAAAgAEEAAAAAAAAAAUCIAAEAAAAAQAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.PaymentAttemptBoletoReturn" Collapsed="true">
+    <Position X="15" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\PaymentAttemptBoletoReturn.cs</FileName>
+      <HashCode>AAAAAAAIAAIAIAAAAAAAAAAAEAAAAAAAAAAAAAAASAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.SystemInterface" Collapsed="true">
+    <Position X="25.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\Servico.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.Configuration.ConfigurationSettings" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\Configuration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAgAAEBCAIAEAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.Configuration.MExtensionMap" Collapsed="true">
+    <Position X="20.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\Configuration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAIAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.Messages.MPaymentAttemptBoletoReturn" Collapsed="true">
+    <Position X="34.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\MPaymentAttemptBoletoReturn.cs</FileName>
+      <HashCode>BAAAAAAAAAABAEAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.Messages.MPaymentAttemptBoletoReturnHeader" Collapsed="true">
+    <Position X="39.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\MPaymentAttemptBoletoReturn.cs</FileName>
+      <HashCode>AIEAYCAiAUAAAJAAABAAABBAASiECAEIKAARCgIBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.Messages.MPaymentAttemptBoletoReturnDetails" Collapsed="true">
+    <Position X="37.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\MPaymentAttemptBoletoReturn.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Boleto.Messages.MPaymentAttemptBoletoReturnDetail" Collapsed="true">
+    <Position X="36" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Boleto\MPaymentAttemptBoletoReturn.cs</FileName>
+      <HashCode>QDBBAQkDDhAAAgAAAGIUAiEAgXlArAA0ABCAgwQQAIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Configuration.ConfigurationSettings" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Configuration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAgAAEBCAIAEAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Configuration.MExtensionMap" Collapsed="true">
+    <Position X="18.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Configuration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAIAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.DepId" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\DepId.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.DepIdBradesco" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\DepIdBradesco.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MDeposit" Collapsed="true">
+    <Position X="16.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MDeposit.cs</FileName>
+      <HashCode>AEAEAAAEBAAACAjAIAAAAAAEAQABIBBAIEAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MPaymentAttemptDepId" Collapsed="true">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepId.cs</FileName>
+      <HashCode>EAAAAAAAAAEIACAABACAEAAAAEAAAABACBAAKgBIAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MCPaymentAttemptDepId" Collapsed="true">
+    <Position X="18.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepId.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MPaymentAttemptDepIdReturn" Collapsed="true">
+    <Position X="43" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>BAAAAAAAAAABAEAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MPaymentAttemptDepIdReturnHeader" Collapsed="true">
+    <Position X="18.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>AIEAICAiAUAAAJAAABAAABBAASiACAEIKAARCgIBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MPaymentAttemptDepIdReturnDetails" Collapsed="true">
+    <Position X="16.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MPaymentAttemptDepIdReturnDetail" Collapsed="true">
+    <Position X="15" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>0EKGAAgEIAABAAAEAADAAIAAAEAkQAAwiAAhBiAAhIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MPaymentAttemptDepIdReturnChks" Collapsed="true">
+    <Position X="46.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.MPaymentAttemptDepIdReturnChk" Collapsed="true">
+    <Position X="44.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>QMFAEACEjCAAgACAAgCAAAAICABAAQAQIACkAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.PaymentAttemptDepId" Collapsed="true">
+    <Position X="16.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\PaymentAttemptDepId.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.DepId.Messages.PaymentAttemptDepIdReturn" Collapsed="true">
+    <Position X="18.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\PaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAIAAAEAAAAAAAQAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupDepId" Collapsed="true">
+    <Position X="20.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAgentSetupDepId.cs</FileName>
+      <HashCode>CACEBYACKEAAQIAQAkAIAAAAAAgCAAABDAEACQEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetupDepId" Collapsed="true">
+    <Position X="37.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\DepId\Messages\MPaymentAgentSetupDepId.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.EnumTranslate" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\EnumTranslate.cs</FileName>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.EnumListBuilder" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\EnumTranslate.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MBilling" Collapsed="true">
+    <Position X="27.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MBilling.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAABAICAAAQCAAAAAEQAAEAABAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCBilling" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MBilling.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MBillingSchedule" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MBillingSchedule.cs</FileName>
+      <HashCode>AKAYAAAAAAAAwAABAgAAAAAAAAAAAAAAABAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCBillingSchedule" Collapsed="true">
+    <Position X="32.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MBillingSchedule.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MConsumer" Collapsed="true">
+    <Position X="16.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MConsumer.cs</FileName>
+      <HashCode>ARAApAIAgKAIEABAQEBAAASAACAJAQAAA6gFoAAAADE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCConsumer" Collapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MConsumer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MConsumerAddress" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MConsumerAddress.cs</FileName>
+      <HashCode>ChAAAQAAAAAAQAIMAEIACAAAAgMAQAACQAgABERCAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCConsumerAddress" Collapsed="true">
+    <Position X="36" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MConsumerAddress.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MExtrato" Collapsed="true">
+    <Position X="22" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MExtrato.cs</FileName>
+      <HashCode>EPAAAEAEAAGAAEAABIAAAAQAAAAAAAAjBAAgQAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCExtrato" Collapsed="true">
+    <Position X="37.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MExtrato.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MExtrato2" Collapsed="true">
+    <Position X="23.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MExtrato2.cs</FileName>
+      <HashCode>AQAAACA4AQABYgAAEAEUYBCwkEQgAACgSQAAQEAAAEc=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCExtrato2" Collapsed="true">
+    <Position X="39.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MExtrato2.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MHandshakeConfiguration" Collapsed="true">
+    <Position X="25.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeConfiguration.cs</FileName>
+      <HashCode>QCAAAAAQAAAQAACAUAAAMBAQAAiARQAUAEAAEAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCHandshakeConfiguration" Collapsed="true">
+    <Position X="41.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeConfiguration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MHandshakeConfigurationHtml" Collapsed="true">
+    <Position X="27.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeConfigurationHtml.cs</FileName>
+      <HashCode>AgABAAAAAIABAAgAkAAAAAICAAAABAACIAAAIkAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCHandshakeConfigurationHtml" Collapsed="true">
+    <Position X="43" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeConfigurationHtml.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MHandshakeConfigurationXml" Collapsed="true">
+    <Position X="29" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeConfigurationXml.cs</FileName>
+      <HashCode>QgABIAAAAIABAAgAkAAAAAICAAAABAACIAAAIkAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCHandshakeConfigurationXml" Collapsed="true">
+    <Position X="44.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeConfigurationXml.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MHandshakeSession" Collapsed="true">
+    <Position X="30.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeSession.cs</FileName>
+      <HashCode>EAAAIAAAEAAQAAAAAAAAEAAAAAAAQAQEAAABgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCHandshakeSession" Collapsed="true">
+    <Position X="46.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeSession.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MHandshakeSessionLog" Collapsed="true">
+    <Position X="32.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeSessionLog.cs</FileName>
+      <HashCode>AAAAIAAAEAAgAAAAAAAAAEAAAAQAAAAAKAABgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCHandshakeSessionLog" Collapsed="true">
+    <Position X="15" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MHandshakeSessionLog.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MOrder" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrder.cs</FileName>
+      <HashCode>UEBQABGEAIoQEmAACAOEAABAIAAEAAQQFAICAQgAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCOrder" Collapsed="true">
+    <Position X="20.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrder.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MOrderCreditCard" Collapsed="true">
+    <Position X="34.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderCreditCard.cs</FileName>
+      <HashCode>MgEAAAGAAAAAABAAAAgAAAAAgAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCOrderCreditCard" Collapsed="true">
+    <Position X="22" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderCreditCard.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MOrderDetailItem" Collapsed="true">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderDetailItem.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCOrderDetailItem" Collapsed="true">
+    <Position X="23.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderDetailItem.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MOrderInstallment" Collapsed="true">
+    <Position X="36" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderInstallment.cs</FileName>
+      <HashCode>EEAIAAAEgAAAAAAAAAAAAgAAAAIAAAQAABABAEQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCOrderInstallment" Collapsed="true">
+    <Position X="25.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderInstallment.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MOrderItem" Collapsed="true">
+    <Position X="37.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderItem.cs</FileName>
+      <HashCode>AAAAAAABIBIAAAAAAAAQCACAEAwCAAAAABAAAAACAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCOrderItem" Collapsed="true">
+    <Position X="27.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MOrderItem.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgent" Collapsed="true">
+    <Position X="43" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgent.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAEAAABAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgent" Collapsed="true">
+    <Position X="29" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgent.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetup" Collapsed="true">
+    <Position X="44.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetup.cs</FileName>
+      <HashCode>AAAABAAAAIAACEAAAEAAAAAAAEAAAAAAAIAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetup" Collapsed="true">
+    <Position X="30.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupABN" Collapsed="true">
+    <Position X="46.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupABN.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAABCEAAAAAAEQAAAAQAAEAAgKAAAJA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupBB" Collapsed="true">
+    <Position X="15" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupBB.cs</FileName>
+      <HashCode>AgAADgAAgAAAAABAAUAgAEQAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetupBB" Collapsed="true">
+    <Position X="32.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupBB.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupBoleto" Collapsed="true">
+    <Position X="16.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupBoleto.cs</FileName>
+      <HashCode>CACEBYBCCAAAAAAQAkAAAEAAACoCAAABDAAACAEAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetupBoleto" Collapsed="true">
+    <Position X="34.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupBoleto.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupBradesco" Collapsed="true">
+    <Position X="18.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupBradesco.cs</FileName>
+      <HashCode>AgAABgAAAAAAAAAABEQAAAAAAAgCAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetupBradesco" Collapsed="true">
+    <Position X="36" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupBradesco.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupItauShopline" Collapsed="true">
+    <Position X="22" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupItauShopline.cs</FileName>
+      <HashCode>AAAABEAAAAAAAAAAAkAAADAAAAgAAAAACAAAAAAASAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetupItauShopline" Collapsed="true">
+    <Position X="39.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupItauShopline.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupKomerci" Collapsed="true">
+    <Position X="23.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupKomerci.cs</FileName>
+      <HashCode>EgAABgAAAAIIAAAAAEoAAAAAIAAAAAACBAgACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetupKomerci" Collapsed="true">
+    <Position X="41.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupKomerci.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupMoset" Collapsed="true">
+    <Position X="25.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupMoset.cs</FileName>
+      <HashCode>ACAABAAAAAAAAAAAAEAAAAAAAAIAAAAIAAAIAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupPaymentClientVirtual" Collapsed="true">
+    <Position X="27.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupPaymentClientVirtual.cs</FileName>
+      <HashCode>MCAABAAAAAAIIAAAAEIAAAAAAoIAIAAIAQAoACBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAgentSetupVBV" Collapsed="true">
+    <Position X="29" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupVBV.cs</FileName>
+      <HashCode>AgAABgAAAAAAAAAAAEAAAAAAAAIAAAAAAAAIAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAgentSetupVBV" Collapsed="true">
+    <Position X="43" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAgentSetupVBV.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAttempt" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttempt.cs</FileName>
+      <HashCode>AkEDJAAGIQAAQAABAkAAAEAQIACAAAAAoAIAAkQAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAttempt" Collapsed="true">
+    <Position X="44.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttempt.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAttemptBB" Collapsed="true">
+    <Position X="30.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptBB.cs</FileName>
+      <HashCode>AEAAAADQAAAIAgBAAgAAAAAEAQAAABAAAACAIgAACIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAttemptBB" Collapsed="true">
+    <Position X="46.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptBB.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAttemptBoleto" Collapsed="true">
+    <Position X="32.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptBoleto.cs</FileName>
+      <HashCode>ESAAIEQAAAEIAAABAABEAAEEAiQIAAAEAAgAM0AAEIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAttemptBoleto" Collapsed="true">
+    <Position X="15" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptBoleto.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAttemptBradesco" Collapsed="true">
+    <Position X="41.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptBradesco.cs</FileName>
+      <HashCode>AAAAwEAQAAIIAAAAAAAAUBAAQAECQAAGAAAAIgFgAIQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAttemptBradesco" Collapsed="true">
+    <Position X="16.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptBradesco.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAttemptItauShopline" Collapsed="true">
+    <Position X="20.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptItauShopline.cs</FileName>
+      <HashCode>RglAgAAEAAAIAABCAAAEAMDEAQCIAAAAAAAAIgAgAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAttemptItauShopline" Collapsed="true">
+    <Position X="20.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptItauShopline.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAttemptKomerci" Collapsed="true">
+    <Position X="22" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptKomerci.cs</FileName>
+      <HashCode>QAAAEAAIJAAIQQQAGAAAgAAAAIhAABCAAJAAagCAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAttemptKomerci" Collapsed="true">
+    <Position X="22" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptKomerci.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentAttemptVBV" Collapsed="true">
+    <Position X="23.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptVBV.cs</FileName>
+      <HashCode>AwAEAAAgAQQBAgAgACAAAAAAAOEAAIASAAAAQoBAAaI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentAttemptVBV" Collapsed="true">
+    <Position X="23.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentAttemptVBV.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentForm" Collapsed="true">
+    <Position X="25.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentForm.cs</FileName>
+      <HashCode>AAAIIAAAAAAACAAAAAAAAQUAAEAAAAAAAJAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentForm" Collapsed="true">
+    <Position X="25.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentFormGroup" Collapsed="true">
+    <Position X="27.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentFormGroup.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAQUAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentFormGroup" Collapsed="true">
+    <Position X="27.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentFormGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MPaymentSummary" Collapsed="true">
+    <Position X="29" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentSummary.cs</FileName>
+      <HashCode>AEAAYAAEAAAAAAAAAAAABAQAAAAAQAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCPaymentSummary" Collapsed="true">
+    <Position X="29" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MPaymentSummary.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MRecurrence" Collapsed="true">
+    <Position X="30.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MRecurrence.cs</FileName>
+      <HashCode>AEERAAIGAAAAIAABAIAgAAAAAAAAAAAAAQAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCRecurrence" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MRecurrence.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MSchedule" Collapsed="true">
+    <Position X="32.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSchedule.cs</FileName>
+      <HashCode>AEExABIGAAAAAABBBAAAAAAAAAAAAAQBAAAAAAEAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCSchedule" Collapsed="true">
+    <Position X="32.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSchedule.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MServicesConfiguration" Collapsed="true">
+    <Position X="34.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MServicesConfiguration.cs</FileName>
+      <HashCode>AAAEAAAAAAAQAAEACAAAEAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCServicesConfiguration" Collapsed="true">
+    <Position X="34.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MServicesConfiguration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MSPLegacyPaymentForm" Collapsed="true">
+    <Position X="36" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSPLegacyPaymentForm.cs</FileName>
+      <HashCode>AAAIAAAAAAIQAAAAAAAAEAAAAAAAAAABABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCSPLegacyPaymentForm" Collapsed="true">
+    <Position X="36" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSPLegacyPaymentForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MSPLegacyPaymentGroup" Collapsed="true">
+    <Position X="37.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSPLegacyPaymentGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAIQAAAAAAAAEQEAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCSPLegacyPaymentGroup" Collapsed="true">
+    <Position X="37.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSPLegacyPaymentGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MSPLegacyStore" Collapsed="true">
+    <Position X="39.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSPLegacyStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAgAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCSPLegacyStore" Collapsed="true">
+    <Position X="39.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MSPLegacyStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MStore" Collapsed="true">
+    <Position X="41.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MStore.cs</FileName>
+      <HashCode>QBQAIAgAAAAQAACAEAAAEIQRAACgBAAWAUAAQACAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCStore" Collapsed="true">
+    <Position X="41.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MStorePaymentForm" Collapsed="true">
+    <Position X="43" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MStorePaymentForm.cs</FileName>
+      <HashCode>QAAJBAAEAAAQAAABEMAAEAAgAAAAECAIABEAgAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCStorePaymentForm" Collapsed="true">
+    <Position X="43" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MStorePaymentForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MStorePaymentInstallment" Collapsed="true">
+    <Position X="44.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MStorePaymentInstallment.cs</FileName>
+      <HashCode>AAAIAAAAgAAwAAiEAQAAEAAAAAAAgQQAAFAhAGUAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCStorePaymentInstallment" Collapsed="true">
+    <Position X="44.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MStorePaymentInstallment.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MUsersInStore" Collapsed="true">
+    <Position X="46.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MUsersInStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAQAAAIAAAAEAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCUsersInStore" Collapsed="true">
+    <Position X="46.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MUsersInStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MWorkflowOrderStatus" Collapsed="true">
+    <Position X="15" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MWorkflowOrderStatus.cs</FileName>
+      <HashCode>UEAAAAAEAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Messages.MCWorkflowOrderStatus" Collapsed="true">
+    <Position X="15" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Messages\MWorkflowOrderStatus.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.ItauShopLine.Crypto" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\ItauShopLine\Crypto.cs</FileName>
+      <HashCode>BAgAACACAAAAAAEAAAQAIEBAAAAIAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.ItauShopLine.Sonda" Collapsed="true">
+    <Position X="46.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\ItauShopLine\Sonda.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Komerci.Komerci" Collapsed="true">
+    <Position X="22" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Komerci\Komerci.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.KomerciWS.KomerciWS" Collapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\KomerciWS\KomerciWS.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.KomerciWS.Messages.AUTHORIZATION" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\KomerciWS\Messages\AUTHORIZATION.cs</FileName>
+      <HashCode>AAAAEAACAAACAAAASAAABAAAAAKAEAAAABAAgIABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.KomerciWS.Messages.CONFIRMATION" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\KomerciWS\Messages\CONFIRMATION.cs</FileName>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAABAAIAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.PaymentClientVirtual.VPCStringComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\PaymentClientVirtual\PaymentClientVirtual.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SuperPag.Agents.PaymentClientVirtual.PaymentClientVirtual" Collapsed="true">
+    <Position X="25.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\PaymentClientVirtual\PaymentClientVirtual.cs</FileName>
+      <HashCode>AAQIAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.PaymentClientVirtual.SystemInterface" Collapsed="true">
+    <Position X="22" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\PaymentClientVirtual\Servico.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.Sitef.Sitef" Collapsed="true">
+    <Position X="9.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\Sitef\Sitef.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV.Helper.ParseHTMLVBV" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV\Helper\ParseHTMLVBV.cs</FileName>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV.Messages.VBVCancelReturn" Collapsed="true">
+    <Position X="39.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV\Messages\VBVCancelReturn.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV.Messages.VBVCaptureReturn" Collapsed="true">
+    <Position X="41.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV\Messages\VBVCaptureReturn.cs</FileName>
+      <HashCode>AAAABgAAAAAAIAAAAAAAAAAAgBAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV.Messages.VBVInquireReturn" Collapsed="true">
+    <Position X="43" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV\Messages\VBVInquireReturn.cs</FileName>
+      <HashCode>AAEFAgECAAAEMAAAAAAAAAEAgBAAEAKAgAABABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV.VBV" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV\VBV.cs</FileName>
+      <HashCode>AAAAAgAAQCABCAAAAAABBAABAAQAAgAAQBAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV3.Messages.VBV3CancelReturn" Collapsed="true">
+    <Position X="34.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV3\Messages\VBVCancelReturn.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV3.Messages.VBV3CaptureReturn" Collapsed="true">
+    <Position X="36" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV3\Messages\VBVCaptureReturn.cs</FileName>
+      <HashCode>AAAABgAAAAAAIAAAAAAAAAAAgBAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV3.Messages.VBV3InquireReturn" Collapsed="true">
+    <Position X="37.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV3\Messages\VBVInquireReturn.cs</FileName>
+      <HashCode>AAABAgECAAAAIAAAAAAAAAAAgBAAAACAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VBV3.VBV3" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VBV3\VBV.cs</FileName>
+      <HashCode>AAAAAgAAQCABCAAAAAABBAEBAAQAAgAAQBAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VisaMoset.Moset" Collapsed="true">
+    <Position X="39.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VisaMoset\moset.cs</FileName>
+      <HashCode>AAgAAAAgIASAIAEAACAAAJEAACEAAIASABAAAAAIACI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VisaMoset.SystemInterface" Collapsed="true">
+    <Position X="23.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VisaMoset\Servico.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VisaMoset3.Messages.VBV3AuthorizeReturn" Collapsed="true">
+    <Position X="32.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VisaMoset3\Messages\VBVCaptureReturn.cs</FileName>
+      <HashCode>AAABAgEAAAAAIAAAAAAAAAAAgBAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VisaMoset3.Moset" Collapsed="true">
+    <Position X="41.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VisaMoset3\moset.cs</FileName>
+      <HashCode>AAgAAgAgIASAIAEAACAAAJEAACEAAIASQAAAAAAIACI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Agents.VisaMoset3.SystemInterface" Collapsed="true">
+    <Position X="20.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\VisaMoset3\Servico.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Consumer" Collapsed="true">
+    <Position X="41.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Consumer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.ConsumerAddress" Collapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\ConsumerAddress.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Ensure" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Ensure.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAEABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Extrato" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Extrato.cs</FileName>
+      <HashCode>QAAAAAAAAAAFAAAAAAAAAACAAAAAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.GenericHelper" Collapsed="true">
+    <Position X="46.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\GenericHelper.cs</FileName>
+      <HashCode>EAAAAAAECAEAgAEAAAAAAAhAAAgAAAAEIRAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.HandshakeConfiguration" Collapsed="true">
+    <Position X="43" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\HandshakeConfiguration.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.HandshakeConfigurationHtml" Collapsed="true">
+    <Position X="44.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\HandshakeConfigurationHtml.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.HandshakeConfigurationXml" Collapsed="true">
+    <Position X="46.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\HandshakeConfigurationXml.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Order" Collapsed="true">
+    <Position X="18.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Order.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAABAAAAAAAIAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.OrderItem" Collapsed="true">
+    <Position X="20.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\OrderItem.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgent" Collapsed="true">
+    <Position X="23.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgent.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetup" Collapsed="true">
+    <Position X="25.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetup.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupABN" Collapsed="true">
+    <Position X="27.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupABN.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupBB" Collapsed="true">
+    <Position X="29" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupBB.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupBoleto" Collapsed="true">
+    <Position X="30.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupBoleto.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupBradesco" Collapsed="true">
+    <Position X="32.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupBradesco.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupItauShopline" Collapsed="true">
+    <Position X="34.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupItaushopline.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupKomerci" Collapsed="true">
+    <Position X="36" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupKomerci.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupMoset" Collapsed="true">
+    <Position X="37.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupMoset.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupPaymentClientVirtual" Collapsed="true">
+    <Position X="39.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupPaymentClientVirtual.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAgentSetupVBV" Collapsed="true">
+    <Position X="41.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAgentSetupVBV.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAttempt" Collapsed="true">
+    <Position X="43" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAttempt.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAttemptBBPag" Collapsed="true">
+    <Position X="44.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAttemptBBPag.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAttemptBoleto" Collapsed="true">
+    <Position X="46.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAttemptBoleto.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAttemptItauShopLine" Collapsed="true">
+    <Position X="20.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAttemptItauShopLine.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAttemptKomerci" Collapsed="true">
+    <Position X="22" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAttemptKomerci.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentAttemptVBV" Collapsed="true">
+    <Position X="23.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentAttemptVBV.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentForm" Collapsed="true">
+    <Position X="27.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentForm.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.PaymentReports" Collapsed="true">
+    <Position X="34.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\PaymentReports.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Recurrence" Collapsed="true">
+    <Position X="36" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Recurrence.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Schedule" Collapsed="true">
+    <Position X="34.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Schedule.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.ServerHttpHtmlRequisition" Collapsed="true">
+    <Position X="37.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\ServerHttpRequisition.cs</FileName>
+      <HashCode>AAAAAAAAAABEACAAAEBgAAwAAARAAAAICIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Store" Collapsed="true">
+    <Position X="15" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Store.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.StorePaymentForm" Collapsed="true">
+    <Position X="16.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\StorePaymentForm.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.StorePaymentInstallment" Collapsed="true">
+    <Position X="18.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\StorePaymentInstallment.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Users" Collapsed="true">
+    <Position X="30.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\User.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Membership.ControllerMemberShipProvider" Collapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Membership\ControllerMembershipProvider.cs</FileName>
+      <HashCode>QQRAAAAAAyAEgQyMGcAEAIAQgyIAAAcCPAECIMkAiAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Business.Membership.ControllerRoleProvider" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Membership\ControllerRoleProvider.cs</FileName>
+      <HashCode>QAAEEAAwAAAEAQAAAAAABAAAAAAAAAIAAAAEAAEQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.DataFactory" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\DataFactory.cs</FileName>
+      <HashCode>IMkjACJM+hAgAghoWAQACIJRA0C8QAIQEIEiAUABGCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DBilling" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DBilling.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgABAAAAAAQCAAAAAAAAAAABAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DBillingSchedule" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DBillingSchedule.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAIAAAAEIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DConsumer" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DConsumer.cs</FileName>
+      <HashCode>AACAgAIAQAAAEAAgBAAAQACAAAAMCACgAAEAIAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DConsumerAddress" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DConsumerAddress.cs</FileName>
+      <HashCode>AAAAAABAAAEAAAAAAACCDAAAAAIACAAGBAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DExtratoFinanceiro2" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DExtratoFinanceiro2.cs</FileName>
+      <HashCode>AAAAAAAYAQABYAAAEAEUQACAkAAAAAAAQQAAAEAAAAc=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DHandshakeConfiguration" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DHandshakeConfiguration.cs</FileName>
+      <HashCode>AAAIAEACAABAAAAAAAAAAABEADBAEAAAEAEAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DHandshakeConfigurationMaxId" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DHandshakeConfiguration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DHandshakeConfigurationHtml" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DHandshakeConfigurationHtml.cs</FileName>
+      <HashCode>AAAACAAAAQAAAACAgAIAAAAEAAACAAACAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DHandshakeConfigurationXml" Collapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DHandshakeConfigurationXml.cs</FileName>
+      <HashCode>AAAACAAAAQAAAACAgAIAAAAEAAACAAAiAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DHandshakeSession" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DHandshakeSession.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAABAABAAAAAACAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DHandshakeSessionLog" Collapsed="true">
+    <Position X="41.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DHandshakeSessionLog.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAoAAAACAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DOrder" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DOrder.cs</FileName>
+      <HashCode>CQQAAEAAAAAAAAAAkAAAAAABgBAACAAAAAAAABwAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DOrderCreditCard" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DOrderCreditCard.cs</FileName>
+      <HashCode>AAAAACAAEAABCAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DOrderInstallment" Collapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DOrderInstallment.cs</FileName>
+      <HashCode>QASAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DOrderItem" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DOrderItem.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAQACAAAAAAAAAAAAgAAEAgACABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgent" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgent.cs</FileName>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetup" Collapsed="true">
+    <Position X="6.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetup.cs</FileName>
+      <HashCode>AAAEAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupComplete" Collapsed="true">
+    <Position X="6.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupMaxId" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupABN" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupABN.cs</FileName>
+      <HashCode>AAAAgAAAAACAAAAAAAAAAAAAAAAAQAUAAAABAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupBB" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupBB.cs</FileName>
+      <HashCode>AACAAAAAAAIAACAAAAAAAAEAAAAAAAQAAAAIAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupBoleto" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupBoleto.cs</FileName>
+      <HashCode>AAAIAAgAAAAAAAAAAAAAKgAAAAFAAAQAAgAAAAAAhAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupBradesco" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupBradesco.cs</FileName>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgIEAAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupDepId" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupDepId.cs</FileName>
+      <HashCode>AAAIQAgAAAAAACAAAAAACAAACAEAAAQAAgAAAAAAhAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupItauShopline" Collapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupItauShopline.cs</FileName>
+      <HashCode>QAAAAAAAAAAAAAAAMAAAAAAAAAAAAAQIAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupKomerci" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupKomerci.cs</FileName>
+      <HashCode>AAAAAAAAAAIAAgAAEAAAAAAAAAAAEAwIAAAAAgAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupMoset" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupMoset.cs</FileName>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupPaymentClientVirtual" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupPaymentClientVirtual.cs</FileName>
+      <HashCode>AAAAACAgAAAAAAAAEAAAAAAAAAABEAQAAAIAAAAAKAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAgentSetupVBV" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAgentSetupVBV.cs</FileName>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttempt" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttempt.cs</FileName>
+      <HashCode>QAQBAAIAQAAAAAAAgAAgAAAAAAAgEAQAAAAAABACAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptComplete" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttempt.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptABN" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptABN.cs</FileName>
+      <HashCode>AAICAAoAAAAAAAAABAAACYAAAIAAgABAAAABgABAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptBB" Collapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptBB.cs</FileName>
+      <HashCode>ABAAAApAQAAAQABAgAAQAAIAEAAABAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptBoleto" Collapsed="true">
+    <Position X="41.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptBoleto.cs</FileName>
+      <HashCode>AAAQAQogAAFAAQABAQAAAAAABAAABAAECAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptBoletoReturn" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptBoletoReturn.cs</FileName>
+      <HashCode>AAYBEkIgAAAJAQAAAACAQEAwBAAAAACRAAEAAAAQAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptBoletoReturnHeader" Collapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptBoletoReturnHeader.cs</FileName>
+      <HashCode>AgAAQAAAECAAAAAAAIABCAAIAAkAABAAAAAAAABAAUg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptBradesco" Collapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptBradesco.cs</FileName>
+      <HashCode>ACAAAAogAIAAAAACAAAAAQAAgEAAoEACAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptDepId" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptDepId.cs</FileName>
+      <HashCode>AEAAAAoAAAAAAAARAAAAQAAAAAAAAAAAAAAAAAAAIAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptDepIdReturn" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>BAQAAEIAIAAAQoAAAAAAQAAAQAAICAAAAIAEAIAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptDepIdReturnChk" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptDepIdReturnChk.cs</FileName>
+      <HashCode>AiQEAEAAAJAAACAAAAAhQAAACAAAgAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptDepIdReturnHeader" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptDepIdReturnHeader.cs</FileName>
+      <HashCode>AgAAQAAAECAAAAAAAIABCAAIAAkAABAAAAAAAABAAUg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptItauShopline" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptItauShopline.cs</FileName>
+      <HashCode>AAAAAAoAQACAAARAxAARAoAAAAAABAAAAAAAAAQhAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptKomerci" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptKomerci.cs</FileName>
+      <HashCode>AIAAAAoQQAAACCAAgAEAAAAAAACAgACIQAAQAEAAgCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptKomerciWS" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptKomerciWS.cs</FileName>
+      <HashCode>AAAAAAoAQAAACCAAgAEAEAAAAACAAACAQCAQIEAAiCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptMoset" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptMoset.cs</FileName>
+      <HashCode>AAAAAgIgQCAAICAAAIABEAAAABAAAAAAACAIAQAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptPaymentClientVirtual" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptPaymentClientVirtual.cs</FileName>
+      <HashCode>BEAIAC6AQEEAABgEAQEAkIABAAAEAKASIAMAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptVBV" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptVBV.cs</FileName>
+      <HashCode>AAABBgMCAAAAYABAAAAQAAAAgRABAACAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentAttemptVBVLog" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentAttemptVBVLog.cs</FileName>
+      <HashCode>AAABBgMCAAAAIAAABAEAAAAAgRABAACAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentForm" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentForm.cs</FileName>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAEEEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentFormComplete" Collapsed="true">
+    <Position X="3.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentFormGroup" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentFormGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DPaymentSummary" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DPaymentSummary.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DRecurrence" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DRecurrence.cs</FileName>
+      <HashCode>QBQAAAAAAAAAACAAAAAAAACAAAAAEAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DRoles" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DRoles.cs</FileName>
+      <HashCode>AAAAAAIAAAAggAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DSchedule" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DSchedule.cs</FileName>
+      <HashCode>QBQAAAIAAAAAACAAAAAAQAAABAAAEAAAAAAAARAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DScheduleComplete" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DSchedule.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DServiceEmailPaymentForm" Collapsed="true">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DServiceEmailPaymentForm.cs</FileName>
+      <HashCode>AAAAAAAQAAQQEAiAAAAAAAAQAhAIEIAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DServiceFinalizationPost" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DServiceFinalizationPost.cs</FileName>
+      <HashCode>AAAAAAIAABAAABAAAAAAAAAACAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DServicePaymentPost" Collapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DServicePaymentPost.cs</FileName>
+      <HashCode>QAAAAAIAABAAABAAAAAAAAAACAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DServicesConfiguration" Collapsed="true">
+    <Position X="46.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DServicesConfiguration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAgAABAAAAABAAAAAAAEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DSPLegacyPaymentForm" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DSPLegacyPaymentForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABEAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DSPLegacyPaymentGroup" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DSPLegacyPaymentGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DSPLegacyStore" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DSPLegacyStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DStore" Collapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DStore.cs</FileName>
+      <HashCode>AAAAEEAQAAAAAAAAAAAAAAAEABAEEAAAAAAAAgAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DStoreMaxId" Collapsed="true">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DStorePaymentForm" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DStorePaymentForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAABAAABAAEAQAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DStorePaymentFormComplete" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DStorePaymentForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DStorePaymentInstallment" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DStorePaymentInstallment.cs</FileName>
+      <HashCode>QACAAAAAAAAAAAAAIAAIAAEABBAAECAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DUsers" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DUsers.cs</FileName>
+      <HashCode>ACAAAAAEACgIRAAAAQAAAEgQAAwEAAJCAAABAAQgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DUsersInRoles" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DUsersInRoles.cs</FileName>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DUsersInStore" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DUsersInStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DWorkflowOrderStatus" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DWorkflowOrderStatus.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Data.Messages.DWorkflowOrderStatus_Order" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Messages\DWorkflowOrderStatus.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.PaymentGroupsWord" Collapsed="true">
+    <Position X="29" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.CreditCardInformation" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAEgAAAQAQAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.RedirectInformation" Collapsed="true">
+    <Position X="41.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.SmartPagLegacy" Collapsed="true">
+    <Position X="43" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Helper" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Helper.cs</FileName>
+      <HashCode>QAAAAAAEAAAAACAEAABgAANAAAAjBBAAAIAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.RecurrenceParams" Collapsed="true">
+    <Position X="37.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\RecurrenceParams.cs</FileName>
+      <HashCode>gAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAABAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.RecurrenceProcess" Collapsed="true">
+    <Position X="39.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\RecurrenceParams.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Html.Helper" Collapsed="true">
+    <Position X="15" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperHtml.cs</FileName>
+      <HashCode>AAACCABAAAAQAAAAAAAQAAAABAEAAAAAAIACAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Html.FinalizationPost" Collapsed="true">
+    <Position X="44.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperHtml.cs</FileName>
+      <HashCode>AAAAAFAAUEAQIQQAAMAAAISgABAAAAQgAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Html.PaymentPost" Collapsed="true">
+    <Position X="30.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperHtml.cs</FileName>
+      <HashCode>AAAAAEAAQEAQIQQAAEAAAIQAABAAAAQgAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Html.Handshake" Collapsed="true">
+    <Position X="41.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Html\Handshake.cs</FileName>
+      <HashCode>AAAAAAAAQgAADAAAAAAADAAAAAAAABAAQQAQAAAACEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Service.HelperService" Collapsed="true">
+    <Position X="20.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperService.cs</FileName>
+      <HashCode>AQAAIAAEAAoAAAAAAACAACCAAAIAAAAAAAUAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Service.Cancel" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Service\Cancel.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Service.Check" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Service\Check.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Service.Reprocess" Collapsed="true">
+    <Position X="43" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Service\Reprocess.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Service.Request" Collapsed="true">
+    <Position X="46.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Service\Request.cs</FileName>
+      <HashCode>AAAAAAACAACQAAAgARAAAAAAAQEAAAAAAIAAIAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Service.Update" Collapsed="true">
+    <Position X="29" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Service\Update.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAASAAAAAAEAAAiAAAQAAAABQABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Xml.Helper" Collapsed="true">
+    <Position X="18.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperXml.cs</FileName>
+      <HashCode>AAACAAAAAAAQAAAAAAAQAAAABAEAAAAAAIAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Xml.FinalizationPost" Collapsed="true">
+    <Position X="43" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperXml.cs</FileName>
+      <HashCode>AAAAAlAAEEAQIQQAAMAAAIQAABAAAAQAAAIAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Xml.PaymentPost" Collapsed="true">
+    <Position X="32.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperXml.cs</FileName>
+      <HashCode>AAAAAEAAAEAAIQAAAEAAAIQAABAAAAQAAAIAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Xml.FinalizationErrorPost" Collapsed="true">
+    <Position X="41.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\HelperXml.cs</FileName>
+      <HashCode>AAAAAFAAEEAQIQQAAMAAAIQAABAAAAQAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Handshake.Xml.Handshake" Collapsed="true">
+    <Position X="39.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handshake\Xml\Handshake.cs</FileName>
+      <HashCode>AAAAAAAAQgQABAAAAAAABAAAAAAAABAAQAAQAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.ClientHttpRequisition" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\ClientHttpRequisition.cs</FileName>
+      <HashCode>AQAAAAAAAAEEAAAIAEBgACgEwAUAAAAICICAAAAgAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Ensure" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Ensure.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAACAAIAAAAAAAACAAAIIAAAEABAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.GenericHelper" Collapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\GenericHelper.cs</FileName>
+      <HashCode>MQK1KAAdSEGjhBEIQVNAAIxAEAzQQAAEIREAgAAChUA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.ClassForLock" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\GenericHelper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.ServerHttpHtmlRequisition" Collapsed="true">
+    <Position X="36" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\ServerHttpHtmlRequisition.cs</FileName>
+      <HashCode>AAAAAAAAAABEACAAAEBgAAwAAARAAAAICIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.ServerHttpRequisition" Collapsed="true">
+    <Position X="39.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\ServerHttpRequisition.cs</FileName>
+      <HashCode>AAAAAAAABgBAACABAEBgAAAAAAQAABAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.ParseHTML.Attribute" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\ParseHTML\Attribute.cs</FileName>
+      <HashCode>EEAAAAAAAAAAAAAAAAAAAAQAAAQAAgAAAAAgAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SuperPag.Helper.ParseHTML.AttributeList" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\ParseHTML\AttributeList.cs</FileName>
+      <HashCode>AAJAAAAAAAAABAAACAAAAAQABAAAAAAAAAAAAABAABI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.ParseHTML.Parse" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\ParseHTML\Parse.cs</FileName>
+      <HashCode>AIhAAAgIAgAABAAAgAAAAAgAhUBAAIAAAABgAAIIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.ParseHTML.ParseHTML" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\ParseHTML\ParseHTML.cs</FileName>
+      <HashCode>IAAgAAACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Parse" Collapsed="true">
+    <Position X="22" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Parse.cs</FileName>
+      <HashCode>gAAACAAAAAAAAQAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.XmlHelper" Collapsed="true">
+    <Position X="25.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Parse.cs</FileName>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.MyXmlTextWriter" Collapsed="true">
+    <Position X="16.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Parse.cs</FileName>
+      <HashCode>AAAEAAAAAEAAAAAAAgAAAAAABABAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.request" Collapsed="true">
+    <Position X="44.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrder" Collapsed="true">
+    <Position X="15" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAQACAAAEAAgAAAAAAAAAAEAAAAAAIABEAoAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumer" Collapsed="true">
+    <Position X="16.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporate" Collapsed="true">
+    <Position X="18.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAQRAAAAAAAAQAAgAIBQAAAAAAAEAAAkAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporateEmail" Collapsed="true">
+    <Position X="22" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.genericPaymentFormDetail" Collapsed="true">
+    <Position X="16.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.genericPaymentFormDetailBoletoInformation" Collapsed="true">
+    <Position X="22" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.genericPaymentFormDetailCreditCardInformation" Collapsed="true">
+    <Position X="23.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>EAAAACABAAAAAACAAAAAAhBAACAEEAQAAAAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporatePhone" Collapsed="true">
+    <Position X="23.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>gAAEAAAgAAACQAAAIAAAAAAggAARAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerCorporateBillingAddress" Collapsed="true">
+    <Position X="20.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPerson" Collapsed="true">
+    <Position X="25.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAYRAAAAgABAAAAgBIBAgBAABAAEAAAgAIAAIKEAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPersonEmail" Collapsed="true">
+    <Position X="29" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPersonPhone" Collapsed="true">
+    <Position X="30.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>gAAEAAAgAAACQAAAIAAAAAAggAARAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderConsumerPersonBillingAddress" Collapsed="true">
+    <Position X="27.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetail" Collapsed="true">
+    <Position X="32.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAABAADAAgAAAAAAACAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetailItem" Collapsed="true">
+    <Position X="36" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAACACAAAAAAAAAAIAAAAAAAIAACACCEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetailRate" Collapsed="true">
+    <Position X="37.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAACAAAAAAACAAAAIAAEAAAAAAABgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderDetailDeliveryAddress" Collapsed="true">
+    <Position X="34.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderPayments" Collapsed="true">
+    <Position X="39.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderPaymentsPayment" Collapsed="true">
+    <Position X="41.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>RVQIBAAAAAAAAAACAMAsAoAAAAAAgAAAAAAAAQEAcEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderPaymentsPaymentInstallments" Collapsed="true">
+    <Position X="43" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AgAAACABAABCAAAAIAAQAAABAAAhAACAQAAAAAIAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderRecurrences" Collapsed="true">
+    <Position X="44.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Request.requestOrderRecurrencesRecurrence" Collapsed="true">
+    <Position X="46.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>QRAACAgAAAAAQAAAAEAkAACAAAAAgAAAAAAAAACIAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.response" Collapsed="true">
+    <Position X="15" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.responseOrders" Collapsed="true">
+    <Position X="16.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AAAAIAABAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.responseOrdersOrder" Collapsed="true">
+    <Position X="18.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AAQQAEAAAEAAgBAAAAAAAAAAAAAAACAAAEAAAAAAIgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.responseOrdersOrderPayment" Collapsed="true">
+    <Position X="20.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AQQABAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.responseOrdersOrderPaymentInstallment" Collapsed="true">
+    <Position X="22" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AFQAAgAAAAAAQAABIEAAAgBAAAAEAAAAAAAAAQAAMAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.responseOrdersOrderPaymentInstallmentPaymentFormDetail" Collapsed="true">
+    <Position X="23.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.responseOrdersOrderPaymentInstallmentPaymentFormDetailBoletoInformation" Collapsed="true">
+    <Position X="25.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AAIAAAAAAAABQIAAIAAQAAAAAAAIAAAAAAAAEQAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Response.responseOrdersOrderPaymentInstallmentPaymentFormDetailCreditCardInformation" Collapsed="true">
+    <Position X="27.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>CAgAAEAAAAAAIAAgAAAAAAAAAAgAAAAAAAAAAAAQQAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.update" Collapsed="true">
+    <Position X="27.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrder" Collapsed="true">
+    <Position X="30.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAQACAAAgAAAAAAAAAAEAAEAAAAACIABEAoAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumer" Collapsed="true">
+    <Position X="32.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerCorporate" Collapsed="true">
+    <Position X="34.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAQRAAAAAAAAQAAgAIBQAAAAAAAEAAAkAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerCorporateEmail" Collapsed="true">
+    <Position X="37.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.genericPaymentFormDetail" Collapsed="true">
+    <Position X="18.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.genericPaymentFormDetailBoletoInformation" Collapsed="true">
+    <Position X="20.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.genericPaymentFormDetailCreditCardInformation" Collapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>EAAAACABAAAAAACAAAAAAhBAACAEEAQAAAAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerCorporatePhone" Collapsed="true">
+    <Position X="39.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>gAAEAAAgAAACQAAAIAAAAAAggAARAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerCorporateBillingAddress" Collapsed="true">
+    <Position X="36" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerPerson" Collapsed="true">
+    <Position X="41.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAYRAAAAgABAAAAgBIBAgBAABAAEAAAgAIAAIKEAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerPersonEmail" Collapsed="true">
+    <Position X="44.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerPersonPhone" Collapsed="true">
+    <Position X="46.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>gAAEAAAgAAACQAAAIAAAAAAggAARAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderConsumerPersonBillingAddress" Collapsed="true">
+    <Position X="43" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderDetail" Collapsed="true">
+    <Position X="15" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAABAADAAgAAAAAAACAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderDetailItem" Collapsed="true">
+    <Position X="18.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAACACAAAAAAAAAAIAAAAAAAIAACACCEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderDetailRate" Collapsed="true">
+    <Position X="20.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAACAAAAAAACAAAAIAAEAAAAAAABgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderDetailDeliveryAddress" Collapsed="true">
+    <Position X="16.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAgAFEQAAAMAAACCACAAAAAAAHAAAAAAAACAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderPayments" Collapsed="true">
+    <Position X="22" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderPaymentsPayment" Collapsed="true">
+    <Position X="23.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>BVAIBAAAQAAAAAAiAMAsAoAAAAAEgAABAAAAAQEAUEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderPaymentsPaymentInstallments" Collapsed="true">
+    <Position X="25.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AgAAACABAABCAAAAIAAQAAABAAAhAACAQAAAAAIAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderRecurrences" Collapsed="true">
+    <Position X="27.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Helper.Xml.Update.updateOrderRecurrencesRecurrence" Collapsed="true">
+    <Position X="29" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>QRAACAgAQAAAQAAgAEAkAACAAAAEgAABAAAAAACIAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Properties.Settings" Collapsed="true">
+    <Position X="41.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.Services.Finalization" Collapsed="true">
+    <Position X="39.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Services\Finalization.cs</FileName>
+      <HashCode>AAAAAEAAACAAAABAAAABAAAQAAAACAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.komerci_capture" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>YkxylgxwDPGhHDAUyrWej+Twod0hQMBM2QkYAIAhRa0=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedCompletedEventArgs" Collapsed="true">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.GetAuthorized_ADCompletedEventArgs" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedAVSCompletedEventArgs" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.ConfirmTxnCompletedEventArgs" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.ConfirmTxn_ADCompletedEventArgs" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.ConfPreAuthorizationCompletedEventArgs" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.VoidTransactionCompletedEventArgs" Collapsed="true">
+    <Position X="18.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.VoidTransactionDistrCompletedEventArgs" Collapsed="true">
+    <Position X="20.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.VoidPreAuthorizationCompletedEventArgs" Collapsed="true">
+    <Position X="15" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.VoidConfPreAuthorizationCompletedEventArgs" Collapsed="true">
+    <Position X="44.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.CouncilReportCompletedEventArgs" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.ConsFornDistribCompletedEventArgs" Collapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.SalesSummCompletedEventArgs" Collapsed="true">
+    <Position X="30.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedCAPCompletedEventArgs" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.ReversalTxnCompletedEventArgs" Collapsed="true">
+    <Position X="29" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedTstCompletedEventArgs" Collapsed="true">
+    <Position X="37.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedAVSTstCompletedEventArgs" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.ConfirmTxnTstCompletedEventArgs" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.ConfPreAuthorizationTstCompletedEventArgs" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.VoidTransactionTstCompletedEventArgs" Collapsed="true">
+    <Position X="22" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.VoidPreAuthorizationTstCompletedEventArgs" Collapsed="true">
+    <Position X="16.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.VoidConfPreAuthorizationTstCompletedEventArgs" Collapsed="true">
+    <Position X="46.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.CouncilReportTstCompletedEventArgs" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.SalesSummTstCompletedEventArgs" Collapsed="true">
+    <Position X="32.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedCAPtstCompletedEventArgs" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SuperPag.Agents.IAgent" Collapsed="true">
+    <Position X="15" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Agents\IAgent.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IBilling" Collapsed="true">
+    <Position X="16.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IBilling.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IBillingSchedule" Collapsed="true">
+    <Position X="18.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IBillingSchedule.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IConsumer" Collapsed="true">
+    <Position X="20.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IConsumer.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IConsumerAddress" Collapsed="true">
+    <Position X="22" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IConsumerAddress.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IExtratoFinanceiro2" Collapsed="true">
+    <Position X="23.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IExtratoFinanceiro2.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IHandshakeConfiguration" Collapsed="true">
+    <Position X="25.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IHandshakeConfiguration.cs</FileName>
+      <HashCode>AAQAAEAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IHandshakeConfigurationHtml" Collapsed="true">
+    <Position X="27.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IHandshakeConfigurationHtml.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IHandshakeConfigurationXml" Collapsed="true">
+    <Position X="29" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IHandshakeConfigurationXml.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IHandshakeSession" Collapsed="true">
+    <Position X="30.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IHandshakeSession.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IHandshakeSessionLog" Collapsed="true">
+    <Position X="32.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IHandshakeSessionLog.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IOrder" Collapsed="true">
+    <Position X="34.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IOrder.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IOrderCreditCard" Collapsed="true">
+    <Position X="36" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IOrderCreditCard.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IOrderInstallment" Collapsed="true">
+    <Position X="37.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IOrderInstallment.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IOrderItem" Collapsed="true">
+    <Position X="39.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IOrderItem.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgent" Collapsed="true">
+    <Position X="41.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgent.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetup" Collapsed="true">
+    <Position X="43" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetup.cs</FileName>
+      <HashCode>AAQAAEAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupABN" Collapsed="true">
+    <Position X="44.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupABN.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupBB" Collapsed="true">
+    <Position X="46.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupBB.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupBoleto" Collapsed="true">
+    <Position X="15" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupBoleto.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupBradesco" Collapsed="true">
+    <Position X="16.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupBradesco.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupDepId" Collapsed="true">
+    <Position X="18.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupDepId.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupItauShopline" Collapsed="true">
+    <Position X="20.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupItauShopline.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupKomerci" Collapsed="true">
+    <Position X="22" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupKomerci.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupMoset" Collapsed="true">
+    <Position X="23.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupMoset.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupPaymentClientVirtual" Collapsed="true">
+    <Position X="25.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupPaymentClientVirtual.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAgentSetupVBV" Collapsed="true">
+    <Position X="27.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAgentSetupVBV.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttempt" Collapsed="true">
+    <Position X="29" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttempt.cs</FileName>
+      <HashCode>QAQAAEAAAAAAAAAAAAAAAAAAEAEABAAAAAAAAARAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptABN" Collapsed="true">
+    <Position X="30.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptABN.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptBB" Collapsed="true">
+    <Position X="32.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptBB.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQBAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptBoleto" Collapsed="true">
+    <Position X="34.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptBoleto.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptBoletoReturn" Collapsed="true">
+    <Position X="36" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptBoletoReturn.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptBoletoReturnHeader" Collapsed="true">
+    <Position X="37.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptBoletoReturnHeader.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptBradesco" Collapsed="true">
+    <Position X="39.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptBradesco.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptDepId" Collapsed="true">
+    <Position X="41.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptDepId.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAACAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptDepIdReturn" Collapsed="true">
+    <Position X="43" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptDepIdReturn.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptDepIdReturnChk" Collapsed="true">
+    <Position X="44.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptDepIdReturnChk.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptDepIdReturnHeader" Collapsed="true">
+    <Position X="46.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptDepIdReturnHeader.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptItauShopline" Collapsed="true">
+    <Position X="15" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptItauShopline.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQBAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptKomerci" Collapsed="true">
+    <Position X="16.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptKomerci.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptKomerciWS" Collapsed="true">
+    <Position X="18.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptKomerciWS.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptMoset" Collapsed="true">
+    <Position X="20.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptMoset.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptPaymentClientVirtual" Collapsed="true">
+    <Position X="22" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptPaymentClientVirtual.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptVBV" Collapsed="true">
+    <Position X="23.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptVBV.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQJAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentAttemptVBVLog" Collapsed="true">
+    <Position X="25.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentAttemptVBVLog.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentForm" Collapsed="true">
+    <Position X="27.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentForm.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAABAAAEAAAAAAAAAACQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentFormGroup" Collapsed="true">
+    <Position X="29" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentFormGroup.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IPaymentSummary" Collapsed="true">
+    <Position X="30.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IPaymentSummary.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IRecurrence" Collapsed="true">
+    <Position X="32.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IRecurrence.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IRoles" Collapsed="true">
+    <Position X="34.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IRoles.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.ISchedule" Collapsed="true">
+    <Position X="36" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\ISchedule.cs</FileName>
+      <HashCode>AAQAAFAAAAAAAAIAAAAAAAAAAAEAAAAgAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IServiceEmailPaymentForm" Collapsed="true">
+    <Position X="37.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IServiceEmailPaymentForm.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IServiceFinalizationPost" Collapsed="true">
+    <Position X="39.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IServiceFinalizationPost.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IServicePaymentPost" Collapsed="true">
+    <Position X="41.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IServicePaymentPost.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IServicesConfiguration" Collapsed="true">
+    <Position X="43" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IServicesConfiguration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.ISPLegacyPaymentForm" Collapsed="true">
+    <Position X="44.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\ISPLegacyPaymentForm.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.ISPLegacyPaymentGroup" Collapsed="true">
+    <Position X="46.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\ISPLegacyPaymentGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.ISPLegacyStore" Collapsed="true">
+    <Position X="15" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\ISPLegacyStore.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IStore" Collapsed="true">
+    <Position X="16.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IStore.cs</FileName>
+      <HashCode>AAQAAEAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IStorePaymentForm" Collapsed="true">
+    <Position X="18.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IStorePaymentForm.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAACAAEAAAAAAAAAAASAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IStorePaymentInstallment" Collapsed="true">
+    <Position X="20.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IStorePaymentInstallment.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IUsers" Collapsed="true">
+    <Position X="22" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IUsers.cs</FileName>
+      <HashCode>AAQAAEAGEAAAAAAAAAAAACAAQAEAAAAAAAAAAAQAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IUsersInRoles" Collapsed="true">
+    <Position X="23.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IUsersInRoles.cs</FileName>
+      <HashCode>AAAAAEAAIgAAAAAAAAAAAAAAAAEAAAAAAgAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IUsersInStore" Collapsed="true">
+    <Position X="25.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IUsersInStore.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SuperPag.Data.Interfaces.IWorkflowOrderStatus" Collapsed="true">
+    <Position X="27.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Data\Interfaces\IWorkflowOrderStatus.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SuperPag.RecurrenceStatus" Collapsed="true">
+    <Position X="18.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.ScheduleStatus" Collapsed="true">
+    <Position X="22" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAEAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.InstallmentType" Collapsed="true">
+    <Position X="36" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.LogFileEntryType" Collapsed="true">
+    <Position X="43" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.WorkflowOrderStatus" Collapsed="true">
+    <Position X="29" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAgABAAAAAAARAAAAQAAAAAAAAAACAAAAAAQAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.OrderStatus" Collapsed="true">
+    <Position X="46.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAACCCAAAAAAAAABEAAAAAIABAAAAAAAAAAAAgQ=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.OrderStatusForCombo" Collapsed="true">
+    <Position X="15" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.HandshakeType" Collapsed="true">
+    <Position X="34.25" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.ItemTypes" Collapsed="true">
+    <Position X="39.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAgAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentGroups" Collapsed="true">
+    <Position X="39.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAICAQAAAAAACAAAAAAABAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.AddressTypes" Collapsed="true">
+    <Position X="15" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.OrderInstallmentStatus" Collapsed="true">
+    <Position X="44.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAgAABAAAAAAAABAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptStatus" Collapsed="true">
+    <Position X="30.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAgAABAAAAAAAABAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentForms" Collapsed="true">
+    <Position X="37.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIDAGAAIABAAGACaMAAAIAACAQgCBEAVEEoAEAARAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PostStatus" Collapsed="true">
+    <Position X="44.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAgAAAQAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptKomerciStatus" Collapsed="true">
+    <Position X="25.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQACAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptKomerciWSStatus" Collapsed="true">
+    <Position X="27.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAQAAEAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptVBVStatus" Collapsed="true">
+    <Position X="34.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQAAEAAAAABABAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptVBVInterfaces" Collapsed="true">
+    <Position X="32.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIEAAAggA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptVisaMosetStatus" Collapsed="true">
+    <Position X="36" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAEAAAAQAAEAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptPaymentClientVirtualStatus" Collapsed="true">
+    <Position X="29" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAEAAAAQAAEAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptItauShoplineStatus" Collapsed="true">
+    <Position X="23.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQACAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptBBPagStatus" Collapsed="true">
+    <Position X="20.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQACAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptBradescoStatus" Collapsed="true">
+    <Position X="22" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQADAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAttemptABNStatus" Collapsed="true">
+    <Position X="18.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PaymentAgents" Collapsed="true">
+    <Position X="16.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAQACAAASAAAgCAAQAAAIAAACAAACQAAQAAgAEAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.PostTypes" Collapsed="true">
+    <Position X="46.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.EmailTypes" Collapsed="true">
+    <Position X="25.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAAIAAAAAIAAAAAEAAEABAAAAAAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Languages" Collapsed="true">
+    <Position X="41.25" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.DepIdStatusEnum" Collapsed="true">
+    <Position X="23.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enuns.cs</FileName>
+      <HashCode>AAIAAABAAAAAAAAAAAAAAAAAIAAAAEAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.capture" Collapsed="true">
+    <Position X="22" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.phoneType" Collapsed="true">
+    <Position X="43" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AACAQAAAAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.gender" Collapsed="true">
+    <Position X="29" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.rate" Collapsed="true">
+    <Position X="16.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.generate" Collapsed="true">
+    <Position X="32.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.type" Collapsed="true">
+    <Position X="27.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.status" Collapsed="true">
+    <Position X="23.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Request.batch" Collapsed="true">
+    <Position X="16.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Response.returnCode" Collapsed="true">
+    <Position X="20.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Response.cs</FileName>
+      <HashCode>AAABAAAAAIAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Update.capture" Collapsed="true">
+    <Position X="20.25" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Update.phoneType" Collapsed="true">
+    <Position X="41.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AACAQAAAAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Update.gender" Collapsed="true">
+    <Position X="27.25" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Update.rate" Collapsed="true">
+    <Position X="15" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Update.generate" Collapsed="true">
+    <Position X="30.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Update.type" Collapsed="true">
+    <Position X="25.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Helper.Xml.Update.batch" Collapsed="true">
+    <Position X="18.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\XML\Update.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SuperPag.Services.Interval" Collapsed="true">
+    <Position X="37.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Services\Enuns.cs</FileName>
+      <HashCode>AEAAAAAAAAAAAAAgAAAAAAAAAEAAACAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedCompletedEventHandler" Collapsed="true">
+    <Position X="37.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.GetAuthorized_ADCompletedEventHandler" Collapsed="true">
+    <Position X="29" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedAVSCompletedEventHandler" Collapsed="true">
+    <Position X="30.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.ConfirmTxnCompletedEventHandler" Collapsed="true">
+    <Position X="16.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.ConfirmTxn_ADCompletedEventHandler" Collapsed="true">
+    <Position X="15" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.ConfPreAuthorizationCompletedEventHandler" Collapsed="true">
+    <Position X="20.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.VoidTransactionCompletedEventHandler" Collapsed="true">
+    <Position X="20.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.VoidTransactionDistrCompletedEventHandler" Collapsed="true">
+    <Position X="22" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.VoidPreAuthorizationCompletedEventHandler" Collapsed="true">
+    <Position X="16.75" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.VoidConfPreAuthorizationCompletedEventHandler" Collapsed="true">
+    <Position X="46.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.CouncilReportCompletedEventHandler" Collapsed="true">
+    <Position X="25.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.ConsFornDistribCompletedEventHandler" Collapsed="true">
+    <Position X="23.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.SalesSummCompletedEventHandler" Collapsed="true">
+    <Position X="43" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedCAPCompletedEventHandler" Collapsed="true">
+    <Position X="34.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.ReversalTxnCompletedEventHandler" Collapsed="true">
+    <Position X="41.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedTstCompletedEventHandler" Collapsed="true">
+    <Position X="39.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedAVSTstCompletedEventHandler" Collapsed="true">
+    <Position X="32.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.ConfirmTxnTstCompletedEventHandler" Collapsed="true">
+    <Position X="18.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.ConfPreAuthorizationTstCompletedEventHandler" Collapsed="true">
+    <Position X="22" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.VoidTransactionTstCompletedEventHandler" Collapsed="true">
+    <Position X="23.75" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.VoidPreAuthorizationTstCompletedEventHandler" Collapsed="true">
+    <Position X="18.5" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.VoidConfPreAuthorizationTstCompletedEventHandler" Collapsed="true">
+    <Position X="15" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.CouncilReportTstCompletedEventHandler" Collapsed="true">
+    <Position X="27.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.SalesSummTstCompletedEventHandler" Collapsed="true">
+    <Position X="44.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SuperPag.br.com.redecard.ecommerce.GetAuthorizedCAPtstCompletedEventHandler" Collapsed="true">
+    <Position X="36" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web References\br.com.redecard.ecommerce\Reference.cs</FileName>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

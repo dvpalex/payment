@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="sp.master.cs" Inherits="Store_default_sp" %>
+<html>
+<head runat="server">
+    <title>SuperPag</title>
+    <link id="linkTag" rel="stylesheet" type="text/css" runat="server" />
+    <style type="text/css" runat="server" id="styleTag" />
+</head>
+<body runat="server" id="thebody">
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="tableTop" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="mainDiv">
+            <div id="topMenu">
+                <asp:Label ID="lblff" runat="server" meta:resourcekey="lblffResource1">Forma de Pagamento</asp:Label>
+            </div>
+            <br />
+            <div id="midContent">
+                <asp:ContentPlaceHolder ID="content" runat="server" />
+            </div>
+            <br />
+            <div id="botFooter">
+                <table cellspacing="4" cellpadding="0" width="100%" border="0">
+                    <tr>
+                        <td align="left" class="footer">
+                        </td>
+                        <td align="left" class="footer">
+                            <asp:Label ID="lblCopyright" runat="server" meta:resourcekey="lblCopyrightResource1">Copyright© 2005-2008 Tivit.</asp:Label>
+                            <br />
+                            <br />
+                            <asp:Label ID="lblFooter" runat="server" meta:resourcekey="lblFooterResource1">Todos os direitos reservados. A Tivit, provedor do sistema de pagamentos, não participa do fornecimento dos bens ou serviços adquiridos através deste sistema junto ao Fornecedor.</asp:Label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+    <asp:Literal ID="Literal_LOreal" runat="server" Visible="false">
+    <div id="mainDiv">
+        <div style="text-align: right; padding-right: 28px;">
+            <form name="formebit" method="get" target="_top" action="https://www.ebitempresa.com.br/bitrate/pesquisa1.asp">
+                <input type="hidden" name='empresa' value='16965'>
+                <input type="image" border="0" name="banner" src="https://www.ebitempresa.com.br/bitrate/banners/b16965.gif"
+                    alt="O que voc&ecirc; achou desta loja?" width="468" height="60">
+            </form>
+        </div>
+    </div>
+    </asp:Literal>
+    <asp:ContentPlaceHolder ID="extraHtml" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

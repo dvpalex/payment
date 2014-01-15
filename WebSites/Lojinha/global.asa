@@ -1,0 +1,101 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+'You can add special event handlers in this file that will get run automatically when
+'special Active Server Pages events occur. To create these handlers, just create a
+'subroutine with a name from the list below that corresponds to the event you want to
+'use. For example, to create an event handler for Session_OnStart, you would put the
+'following code into this file (without the comments):
+
+'Sub Session_OnStart
+'**Put your code here **
+'End Sub
+
+'EventName              Description
+'Session_OnStart        Runs the first time a user runs any page in your application
+'Session_OnEnd          Runs when a user's session times out or quits your application
+'Application_OnStart    Runs once when the first page of your application is run for the first time by any user
+'Application_OnEnd      Runs once when the web server shuts down
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+Sub Application_OnStart
+	'==Visual InterDev Generated - startspan==
+	'--Project Data Connection
+		Application("Connection1_ConnectionString") = "DSN=loja;User Id=smartpag;PASSWORD=smartpag;Description=loja;UID=smartpag;APP=Microsoft Development Environment;WSID=172.50.144.33;DATABASE=LOJA"
+		Application("Connection1_ConnectionTimeout") = 15
+		Application("Connection1_CommandTimeout") = 30
+		Application("Connection1_CursorLocation") = 3
+		Application("Connection1_RuntimeUserName") = "superpag"
+		Application("Connection1_RuntimePassword") = "super123"
+	'-- Project Data Environment
+		'Set DE = Server.CreateObject("DERuntime.DERuntime")
+		'Application("DE") = DE.Load(Server.MapPath("Global.ASA"), "_private/DataEnvironment/DataEnvironment.asa")
+	'==Visual InterDev Generated - endspan==
+	Application.Lock
+		server.scripttimeout = 30
+		REM -- Configurar com o número do estabelecimento fornecido pelo banco e
+		REM -- O prazo máximo para débito no cartão bradesco instantâneo e
+		REM -- A URL da raiz da loja
+	REM - GERAL
+		REM -- O caminho do banco de dados 
+			Application("Nome") = "loja"
+			Application("NomeLoja") = "Loja Virtual Teste"
+			Application("NumEstabelecimento") = "1220"
+			Application("PrazoMaxBradescoDebito") = "2"
+			Application("URLdaLoja") = "localhost/lojinha"  ' Não colocar http:// na frente
+			Application("SiteSeguro") = "localhost/lojinha" ' Não colocar https:// na frente
+			Application("BancoDeDados") = "e:\home\" & Application("Nome") & "\dados\lojinha.mdb"
+			Application("MailLoja") = "loja@locaweb.com.br"
+	REM - BRADESCO NET
+			Application("AutorizacaoOK") = "recibo.asp"
+			Application("CapturaOK") = "pedidos_bradesco.asp"
+			Application("AutorizacaoFalha") = "recibo.asp"
+			Application("CapturaFalha") = "pedidos_bradesco.asp"
+			Application("RespostaAutorizacao") = "grava_autorizacao.asp"
+			Application("SenhaCodificada") = "llrZc.6An/kF."
+	REM - BOLETO
+		REM -- Dados de sua conta para emissão de boleto bancário
+ 			Application("conta") = "intermoda-safra"
+			Application("banco") = "safra"
+			Application("agencia") = "02200"
+	                REM - Conta.  A LocaWeb devera informar a formatacao correta.
+			Application("codigo_cedente") = "916838"
+	                REM - Se nao souber o codigo da carteira para o seu banco, deixe como "000"
+			Application("carteira") = "000"
+			Application("DiasdeVencimento") = 7
+	REM - CARTAO DE CREDITO
+			REM - Esta chave será fornecida pela Locaweb.
+			Application("ChavePublica") = "A1#050f9b1d1972b9fd0fff54f2a17e8ee0536a5378529db9cc62c68e8b9ef22b55"
+			Application("CaminhoSeguro") = Application("SiteSeguro") & "/" & Application("Nome") 
+	REM -- Deste ponto para baixo não realmente necessario modificacoes
+'			Application("StringConexaoODBC") = "DBQ=" & Application("BancoDeDados") & ";Driver={Microsoft Access Driver (*.mdb)}"
+' 			Application("StringConexaoODBC") = "Data Provider=MSDASQL;DSN=loja;uid=smartpag;pwd=smartpag;database=loja"
+'			Application("StringConexaoODBC") = "DSN=loja;SERVER=SQLFIN;uid=smartpag;pwd=smartpag;APP=lojasmartpag"
+			Application("StringConexaoODBC") = "DSN=loja;SERVER=nc01;uid=superpag;pwd=super123;APP=Lojinha"
+            Application("ServidorSMTP") = "smtp2.locaweb.com.br"
+			Application("DiretorioRaiz") = "D:\home\" & Application("Nome") & "\web\"
+		REM - Localização das páginas. Modifique somente se o desenvolvedor optar por mover as paginas para outro lugar.
+			Application("URL_Categorias") = "http://" & Application("URLdaLoja") & "/categorias.asp"
+			Application("URL_Pedido_Seguro") = "https://" & Application("CaminhoSeguro") & "/endereco_pedido.asp"
+			Application("URL_Pedido") = "http://" & Application("URLdaLoja") & "/endereco_pedido.asp"
+			Application("URL_Confirmacao") = "http://" & Application("URLdaLoja") & "/confirmacao.asp"
+			Application("URL_Confirmacao_segura") = "https://" & Application("CaminhoSeguro") & "/confirmacao.asp"
+			Application("URL_Grava_endereco_seguro") = "https://" & Application("CaminhoSeguro") & "/grava_endereco.asp"
+			Application("URL_Grava_endereco") = "http://" & Application("URLdaLoja") & "/grava_endereco.asp"
+			Application("URL_Recibo_seguro") = "https://" & Application("CaminhoSeguro") & "/recibo.asp"
+			Application("URL_Recibo") = "http://" & Application("URLdaLoja") & "/recibo.asp"
+			Application("URL_Admin") = "http://" & Application("URLdaLoja") & "/admin.asp"
+			Application("URL_Admin_Seguro") = "https://" & Application("CaminhoSeguro") & "/admin.asp"
+			Application("URL_Mostra_pedidos_seguro") = "https://" & Application("CaminhoSeguro") & "/mostra_pedido.asp"
+			Application("URL_Pedidos_Bradesco") = "https://" & Application("CaminhoSeguro") & "/pedidos_bradesco.asp"
+			Application("URL_Pedidos_Boleto") = "https://" & Application("CaminhoSeguro") & "/pedidos_boleto.asp"
+			Application("URL_Pedidos_Cartao") = "https://" & Application("CaminhoSeguro") & "/pedidos_cartao.asp"
+			Application("URL_Mostra_produtos") = "https://" & Application("CaminhoSeguro") & "/mostra_produtos.asp"
+			Application("URL_Mostra_categorias") = "https://" & Application("CaminhoSeguro") & "/mostra_categorias.asp"
+			Application("URL_Senha_Admin") = "https://" & Application("CaminhoSeguro") & "/senha_admin.htm"
+			Application("URL_Insere_Produto") = "http://" & Application("URLdaLoja") & "/insere_produto.asp"
+			Application("URL_Carrega_Imagem") = "http://" & Application("URLdaLoja") & "/carrega_imagem.asp"
+	Application.Unlock
+End Sub
+</SCRIPT>

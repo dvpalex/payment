@@ -1,0 +1,51 @@
+<pedido>
+  <numero_pedido>90000361</numero_pedido>
+  <valor_total_pedido>200</valor_total_pedido>
+  <valor_frete_pedido>000</valor_frete_pedido>
+  <itens>
+    <quantidade_pedido>2</quantidade_pedido>
+    <item>
+      <codigo_item>1</codigo_item>
+      <descricao_item>produtos</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>100</valor_unitario_item>
+    </item>
+    <item>
+      <codigo_item>1</codigo_item>
+      <descricao_item>produtos</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>100</valor_unitario_item>
+    </item>
+  </itens>
+  <dados_cliente>
+    <pessoa_fisica>
+      <cpf_pf>12312312387</cpf_pf>
+      <nome_pf>TESTE E-FINANCIAL</nome_pf>
+      <email_pf>rodolfo.camara@e-financial.com.br</email_pf>
+    </pessoa_fisica>
+    <endereco_cobranca>
+      <endereco_ec>Florida, 22,</endereco_ec>
+      <cidade_ec>Pinamar</cidade_ec>
+      <cep_ec>00003000</cep_ec>
+      <estado_ec>EX</estado_ec>
+    </endereco_cobranca>
+    <endereco_entrega>
+      <endereco_ee>Florida, 22,</endereco_ee>
+      <cidade_ee>Pinamar</cidade_ee>
+      <cep_ee>00003000</cep_ee>
+      <estado_ee>buenos Aires</estado_ee>
+     </endereco_entrega>
+  </dados_cliente>
+  <setup_loja>
+	<urls>
+		<post_final>http://lojateste.pagamentosonline.com.br/FinishRequest.aspx</post_final>
+		<link_retorno>http://lojateste.pagamentosonline.com.br</link_retorno>
+	</urls>
+  </setup_loja>
+  <parametros_opcionais>
+	  <idioma>en</idioma>
+	  <post_xml>S</post_xml>
+    <forma_pagto>33</forma_pagto>
+    <pqtdparcelas>1</pqtdparcelas>
+  </parametros_opcionais>
+</pedido>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<pedido xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:BasePayment-schema">
+	<numero_pedido>12345-6</numero_pedido>
+	<valor_total_pedido>122000</valor_total_pedido>
+	<valor_frete_pedido>2000</valor_frete_pedido>
+	<itens>	
+		<quantidade_pedido>2</quantidade_pedido>
+		<item>
+			<codigo_item>AD500</codigo_item>
+			<descricao_item>hjfshfgsfgsjhsjhsjh</descricao_item>
+			<quantidade_item>1</quantidade_item>
+			<valor_unitario_item>60000</valor_unitario_item>
+		</item>
+		<item>
+			<codigo_item>AD500</codigo_item>
+			<descricao_item>hjfshfgsfgsjhsjhsjh</descricao_item>
+			<quantidade_item>1</quantidade_item>
+			<valor_unitario_item>60000</valor_unitario_item>
+</item>
+	</itens>
+	<dados_cliente>
+		<pessoa_fisica>
+			<nome_pf>Luiz Ricardo Tomiato</nome_pf>
+			<cpf_pf>12312312387</cpf_pf>
+			<data_nascimento_pf>23011974</data_nascimento_pf>
+			<sexo_pf>M</sexo_pf>
+			<estado_civil_pf>S</estado_civil_pf>
+			<profissao_pf>engenheiro</profissao_pf>
+			<email_pf>x@x.com</email_pf>
+			<telefone_pf>1112345678</telefone_pf>
+			<fax_pf>1112345678</fax_pf>
+		</pessoa_fisica>
+		<endereco_cobranca>
+			<logradouro_ec>Rua</logradouro_ec>
+			<endereco_ec>rua x.com</endereco_ec>
+			<numero_ec>1245</numero_ec>
+			<complemento_ec/>			
+<bairro_ec>bairro x</bairro_ec>
+			<cidade_ec>cidade x</cidade_ec>
+			<cep_ec>12345678</cep_ec>
+			<estado_ec>SP</estado_ec>
+			<pais_ec>BR</pais_ec>
+		</endereco_cobranca>
+		<endereco_entrega>
+			<nome_responsavel_ee>Nome Entrega</nome_responsavel_ee>
+			<telefone_responsavel_ee>1138189445</telefone_responsavel_ee>
+			<logradouro_ee>Rua</logradouro_ee>
+			<endereco_ee>Rua x.com</endereco_ee>
+			<numero_ee>1245</numero_ee>
+			<complemento_ee>complemento entrega</complemento_ee>
+			<bairro_ee>bairro x</bairro_ee>
+			<cidade_ee>cidade x</cidade_ee>
+			<cep_ee>01310200</cep_ee>
+			<estado_ee>SP</estado_ee>
+			<pais_ee>BR</pais_ee>
+		</endereco_entrega>
+	</dados_cliente>
+	<setup_loja>
+		<urls>
+			<post_final>http://evenites/loja/retorno.asp</post_final>	
+			<link_retorno>http://evenites/loja/envia.asp</link_retorno>	
+		</urls>
+	</setup_loja>
+	<parametros_opcionais>
+		<param_op1_ped>PARAM OP 1 PED</param_op1_ped>
+		<param_op2_ped>PARAM OP 2 PED</param_op2_ped>
+		<param_op3_ped>PARAM OP 3 PED</param_op3_ped>
+		<post_xml>S</post_xml>
+		<forma_pagto/>
+		<bandeira/>
+		<pqtdparcelas/>		
+		<show_tela_finalizacao/>
+		<frame50>1</frame50>
+		<instrucao_finalizacao>O seu pedido foi recebido pelo Total Fit, apos a confirmacao do pagamento estaremos entregando as suas mercadorias.</instrucao_finalizacao>		
+		<instrucao_boleto>INSTRUCAO BOLETO</instrucao_boleto>
+		<data_boleto/>		
+		<urlbotao1/>
+		<urlbotao2/>
+		<urlbotao3/>
+		<urlbotao4/>
+		<urlbotao5/>
+		<urlbotao6/>
+		<link_botao6/>		
+		<envia_email_cliente/>
+		<show_valor_total/>		
+	</parametros_opcionais>
+	<controle_loja>
+		<teste>
+			<node_teste>1</node_teste>
+			<node_teste1>2</node_teste1>
+			<node_teste2>3</node_teste2>
+		</teste>
+	</controle_loja>
+</pedido>

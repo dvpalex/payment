@@ -1,0 +1,89 @@
+<pedido>
+  <numero_pedido>259073</numero_pedido>
+  <valor_total_pedido>252800</valor_total_pedido>
+  <valor_frete_pedido>0</valor_frete_pedido>
+  <itens>
+    <quantidade_pedido>2</quantidade_pedido>
+    <item>
+      <codigo_item>9780</codigo_item>
+      <descricao_item>TECLADO ULTRA FINO VCOM LCDS-720</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>2900</valor_unitario_item>
+    </item>
+    <item>
+      <codigo_item>12018</codigo_item>
+      <descricao_item>MONITOR/TV LCD 23" FLAT PHILIPS (23PF5321)</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>249900</valor_unitario_item>
+    </item>
+  </itens>
+  <dados_cliente>
+    <pessoa_fisica>
+      <nome_pf>Cátia Machado Carneiro</nome_pf>
+      <cpf_pf>72392274134</cpf_pf>
+      <data_nascimento_pf>09091982</data_nascimento_pf>
+      <sexo_pf>F</sexo_pf>
+      <estado_civil_pf>S</estado_civil_pf>
+      <profissao_pf>Auxiliar administrativo</profissao_pf>
+      <email_pf>marcos.sampaio.ext@tivit.com.br</email_pf>
+      <telefone_pf>6133758861</telefone_pf>
+    </pessoa_fisica>
+    <endereco_entrega>
+      <nome_responsavel_ee>Cátia</nome_responsavel_ee>
+      <telefone_responsavel_ee>6133758861</telefone_responsavel_ee>
+      <logradouro_ee>Outro</logradouro_ee>
+      <endereco_ee>QNP 19 CONJ: H CASA: 16A</endereco_ee>
+      <numero_ee>16</numero_ee>
+      <complemento_ee></complemento_ee>
+      <bairro_ee>P NORTE</bairro_ee>
+      <cidade_ee>Ceilândia</cidade_ee>
+      <cep_ee>72241808</cep_ee>
+      <estado_ee>DF</estado_ee>
+      <pais_ee>BR</pais_ee>
+    </endereco_entrega>
+    <endereco_cobranca>
+      <logradouro_ec>Outro</logradouro_ec>
+      <endereco_ec>QNP 19 CONJ: H CASA: 16A</endereco_ec>
+      <numero_ec>16</numero_ec>
+      <complemento_ec></complemento_ec>
+      <bairro_ec>P NORTE</bairro_ec>
+      <cidade_ec>Ceilândia</cidade_ec>
+      <cep_ec>72241808</cep_ec>
+      <estado_ec>DF</estado_ec>
+      <pais_ec>BR</pais_ec>
+    </endereco_cobranca>
+  </dados_cliente>
+  <setup_loja>
+    <urls>
+      <post_final>http://www.lojactis.com.br/loja/checkout/finalizacaoPedido.cfm?CFID=803584&amp;CFTOKEN=59500250&amp;jsessionid=c430917af1a9642a5831</post_final>
+      <link_retorno>http://www.lojactis.com.br/loja/checkout/confirmacaoDoPedido.cfm?idpedido=05C43920-AADE-316C-A9FF1CCCC1B1648F</link_retorno>
+    </urls>
+  </setup_loja>
+  <parametros_opcionais>
+    <post_xml>S</post_xml>
+    <forma_pagto>2</forma_pagto>
+    <bandeira>23</bandeira>
+    <pqtdparcelas>2</pqtdparcelas>
+    <show_tela_finalizacao>1</show_tela_finalizacao>
+    <frame50>0</frame50>
+    <instrucao_finalizacao>O seu pedido foi recebido pela Loja CTIS, após a confirmacao do pagamento sua compra será entregue no endereço selecionado.</instrucao_finalizacao>
+    <urlbotao1></urlbotao1>
+    <urlbotao2></urlbotao2>
+    <urlbotao3></urlbotao3>
+    <urlbotao4></urlbotao4>
+    <urlbotao5></urlbotao5>
+    <urlbotao6></urlbotao6>
+    <urlbotao7></urlbotao7>
+    <link_botao6></link_botao6>
+    <envia_email_cliente>0</envia_email_cliente>
+    <param_tipo_pedido></param_tipo_pedido>
+    <show_valor_total></show_valor_total>
+  </parametros_opcionais>
+  <controle_loja>
+    <teste>
+      <node_teste>1</node_teste>
+      <node_teste1>2</node_teste1>
+      <node_teste2>3</node_teste2>
+    </teste>
+  </controle_loja>
+</pedido>

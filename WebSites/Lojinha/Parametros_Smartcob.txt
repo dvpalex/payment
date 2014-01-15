@@ -1,0 +1,14 @@
+
+           <!-- Parametros Novos para o e-Cobranca -->
+          
+          <!-- Quantidade de Recorrencias -->
+          <input type="hidden" name="COB_QUANTIDADE" value="3">
+          
+          <!-- Tipo de liguidacao da 1ª parcela (1-Smartpag/ 2- eCobOffLine/ 3 - eCobOnline) -->
+          <input type="hidden" name="COB_LIQ_1PAR" value="3">
+          
+          <!-- Data da cobranca da 1ª parcela -->
+          <input type="hidden" name="COB_DATA_BASE_AGENDAMENTO" value="20030125">
+          
+          <!-- Tipo de Recorrencia (Mensal, quinzenal, etc) -->
+          <input type="hidden" name="COB_RECORRENCIA" value="1">

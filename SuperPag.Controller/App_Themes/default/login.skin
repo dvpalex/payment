@@ -1,0 +1,5 @@
+<asp:Image SkinID="login_01" ImageUrl="images/login_01.jpg"  runat="server" />
+<asp:Image SkinID="login_02" ImageUrl="images/login_02_1.jpg"  runat="server" />
+<asp:Image SkinID="login_03" ImageUrl="images/login_03.jpg"  runat="server" />
+<asp:Image SkinID="login_04" ImageUrl="images/login_04_1.jpg"  runat="server" />
+<asp:Image SkinID="login_05" ImageUrl="images/login_05.jpg"  runat="server" />

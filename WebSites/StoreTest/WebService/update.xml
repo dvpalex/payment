@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<update>
+  <orders>
+    <order id="720584" total="3620">
+      <consumer>
+        <person cpf="27781486803" name="Leandro">
+          <emails>
+            <email address="marcos.sampaio.ext@tivit.com.br"/>
+          </emails>
+        </person>
+      </consumer>
+      <detail>
+        <itens>
+          <item code="3" value="3620" quantity="1" description="Conta Avançada"/>
+        </itens>
+      </detail>
+      <recurrences>
+        <recurrence amount="3620" interval="30" startDate="2009-08-02"/>
+      </recurrences>
+    </order>
+  </orders>
+</update>

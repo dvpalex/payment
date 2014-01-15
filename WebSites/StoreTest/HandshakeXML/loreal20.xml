@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>  
+  <pedido>   
+    <numero_pedido>96001391</numero_pedido>   
+    <valor_total_pedido>27300</valor_total_pedido>   
+    <valor_frete_pedido>0</valor_frete_pedido>   
+      <itens>     <quantidade_pedido>6</quantidade_pedido>    
+      <item>     
+        <codigo_item>3147754033551</codigo_item>     
+        <descricao_item>30 ml</descricao_item>     
+        <quantidade_item>1</quantidade_item>     
+        <valor_unitario_item>14300</valor_unitario_item>    
+      </item>    
+        <item>     
+          <codigo_item>3147758072235</codigo_item>     
+          <descricao_item>003 Beige ambre</descricao_item>     
+          <quantidade_item>1</quantidade_item>     
+          <valor_unitario_item>12400</valor_unitario_item>    
+        </item>    
+        <item>     
+          <codigo_item>7896014182572</codigo_item>     
+          <descricao_item>Na Sala com Danuza</descricao_item>     
+          <quantidade_item>1</quantidade_item>     
+          <valor_unitario_item>0</valor_unitario_item>    
+        </item>    
+        <item>     
+          <codigo_item>9999999999999</codigo_item>     
+          <descricao_item>Embalagem para presente</descricao_item>     
+          <quantidade_item>1</quantidade_item>     
+          <valor_unitario_item>600</valor_unitario_item>    
+        </item>    
+        <item>     
+          <codigo_item>3147758103601</codigo_item>     
+          <descricao_item>PRIMO OPTIM NUIT 5ML</descricao_item>     
+          <quantidade_item>1</quantidade_item>     
+          <valor_unitario_item>0</valor_unitario_item>    </item>    
+        <item>     <codigo_item>3147758411928</codigo_item>     
+        <descricao_item>HIGH RESOLUTION SAM 5ML</descricao_item>     
+          <quantidade_item>1</quantidade_item>     
+          <valor_unitario_item>0</valor_unitario_item>    
+        </item>      </itens>   <dados_cliente>    
+          <pessoa_fisica>     <nome_pf>Juliana Moreira</nome_pf>     
+          <cpf_pf>02180580479</cpf_pf>     
+            <data_nascimento_pf>02091976</data_nascimento_pf>     
+            <sexo_pf></sexo_pf>     
+            <estado_civil_pf>Feminino</estado_civil_pf>     
+            <profissao_pf></profissao_pf>     
+            <email_pf>julimor2000@yahoo.com</email_pf>     
+            <telefone_pf>21 81272096</telefone_pf>     <fax_pf></fax_pf>    
+          </pessoa_fisica>    
+          <endereco_cobranca>     
+            <logradouro_ec></logradouro_ec>     
+            <endereco_ec>Av. Rainha Elizabeth 85</endereco_ec>     
+            <numero_ec></numero_ec>     
+            <complemento_ec>apt. 1108</complemento_ec>      
+            <bairro_ec></bairro_ec>     
+            <cidade_ec>RIo de Janeiro</cidade_ec>     
+            <cep_ec>22081-030</cep_ec>     
+            <estado_ec>RJ</estado_ec>     
+            <pais_ec>Brasil</pais_ec>    
+          </endereco_cobranca>    
+          <endereco_entrega>     
+            <nome_responsavel_ee>Elisabet Moreira</nome_responsavel_ee>     
+            <telefone_responsavel_ee> </telefone_responsavel_ee>     
+            <logradouro_ee></logradouro_ee>     
+            <endereco_ee>Rua Bahia 63</endereco_ee>     
+            <numero_ee></numero_ee>     
+            <complemento_ee></complemento_ee>     
+            <bairro_ee></bairro_ee>     
+            <cidade_ee>Petrolina</cidade_ee>     
+            <cep_ee>56304-410</cep_ee>     
+            <estado_ee>PE</estado_ee>     
+            <pais_ee>Brasil</pais_ee>    
+          </endereco_entrega>   
+        </dados_cliente>   
+    <setup_loja>      
+      <urls>  
+        <post_final>http://www.viplancweb1.e-loreal.com/_pt/_br/checkout/completion.aspx?TransactionCode=96001391</post_final>  
+        <link_retorno>http://www.viplancweb1.e-loreal.com/_pt/_br/checkout/step6.aspx?TransactionCode=96001391</link_retorno>      
+      </urls>   
+    </setup_loja>   
+    <parametros_opcionais>    
+      <simulacao>0</simulacao>    
+      <param_op1_ped></param_op1_ped>    
+      <param_op2_ped></param_op2_ped>    
+      <param_op3_ped></param_op3_ped>    
+      <post_xml>S</post_xml>    
+      <forma_pagto></forma_pagto>    
+      <bandeira></bandeira>    
+      <pqtdparcelas></pqtdparcelas>    
+      <show_tela_finalizacao></show_tela_finalizacao>    
+      <frame50>1</frame50>    
+      <instrucao_finalizacao>O seu pedido foi recebido. A entrega ser?? realizada ap??s a confirma????o do pagamento.</instrucao_finalizacao>    
+      <instrucao_boleto>INSTRUCAO BOLETO</instrucao_boleto>    
+      <data_boleto></data_boleto>    
+      <urlbotao1></urlbotao1>    
+      <urlbotao2></urlbotao2>    
+      <urlbotao3></urlbotao3>    
+      <urlbotao4></urlbotao4>    
+      <urlbotao5></urlbotao5>    
+      <urlbotao6></urlbotao6>    
+      <link_botao6></link_botao6>    
+      <envia_email_cliente>dominique.deboise@alsy.fr</envia_email_cliente>    
+      <param_tipo_pedido></param_tipo_pedido>    
+      <show_valor_total></show_valor_total>   
+    </parametros_opcionais>   
+    <controle_loja>    
+      <teste>     
+        <node_teste>1</node_teste>     
+        <node_teste1>2</node_teste1>     
+        <node_teste2>3</node_teste2>    
+      </teste>   
+    </controle_loja>  
+  </pedido>

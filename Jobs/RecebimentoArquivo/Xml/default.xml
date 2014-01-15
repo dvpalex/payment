@@ -1,0 +1,41 @@
+<request>
+  <orders>
+    <order reference="1" total="">
+      <consumer>
+        <person name="0" cpf="0" gender="M">
+          <emails>
+            <email address="" />
+          </emails>
+          <phones>
+            <phone type="home" countryCode="55" ddd="0" number="0" />
+          </phones>
+          <billingAddress location="0" number="0" complement="" district="0" postalCode="0" city="0" state="0" country="Brasil" />
+        </person>
+      </consumer>
+      <detail>
+        <itens>
+          <item code="0" value="0" quantity="0" description="Debito Conta" />
+        </itens>
+        <rates>
+          <rate type="shipping" amount="0" description="0" />
+        </rates>
+      </detail>
+      <payments>
+        <payment amount="" form="">
+          <paymentFormDetail>
+            <ContaCorrenteInformationCSU>
+              <DigVerAg></DigVerAg>
+              <NumContCorrent></NumContCorrent>
+              <DigVerCont></DigVerCont>
+              <NumAgencia></NumAgencia>
+              <Vencimento></Vencimento>
+              <CodigoLogo></CodigoLogo>
+              <Plastico></Plastico>
+            </ContaCorrenteInformationCSU>
+          </paymentFormDetail>
+          <installments quantity ="1"/>
+        </payment>
+      </payments>
+    </order>
+  </orders>
+</request>

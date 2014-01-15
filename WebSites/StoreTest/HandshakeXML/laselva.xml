@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pedido>
+	<numero_pedido>1029</numero_pedido>
+	<valor_total_pedido>346107</valor_total_pedido>
+	<valor_frete_pedido>47107</valor_frete_pedido>
+	<itens>
+			<quantidade_pedido>1</quantidade_pedido>
+						
+			<item>
+					<codigo_item>14115</codigo_item>
+					<descricao_item>LOST - SINAIS DE VIDA                                                                               </descricao_item>
+					<quantidade_item>1</quantidade_item>
+					<valor_unitario_item>299</valor_unitario_item>
+			</item>
+			
+	</itens>
+	<dados_cliente>
+			
+			<pessoa_fisica>
+					<cpf_pf>35044212822</cpf_pf>
+					<nome_pf>Escalena - Cliente de Testes</nome_pf>
+					<email_pf>dev@escalena.com</email_pf>
+			</pessoa_fisica>
+			
+			<endereco_cobranca>
+					<endereco_ec>Rua James Holland</endereco_ec>
+					<numero_ec>95 </numero_ec>
+					<complemento_ec></complemento_ec>
+					<cidade_ec>São Paulo</cidade_ec>
+					<cep_ec>01138000</cep_ec>
+					<estado_ec>SP</estado_ec>
+			</endereco_cobranca>
+			<endereco_entrega>
+					<endereco_ee>Rua James Holland</endereco_ee>
+					<numero_ee>95</numero_ee>
+					<complemento_ee></complemento_ee>
+					<cidade_ee>São Paulo</cidade_ee>
+					<cep_ee>01138000</cep_ee>
+					<estado_ee>SP</estado_ee>
+			</endereco_entrega>
+	</dados_cliente>
+	<setup_loja>
+			<urls>
+					<post_final></post_final>
+					<link_retorno></link_retorno>
+			</urls>
+	</setup_loja>
+	<parametros_opcionais>
+			<param_op1_ped></param_op1_ped>
+			<param_op2_ped></param_op2_ped>
+			<param_op3_ped></param_op3_ped>
+			<post_xml>S</post_xml>
+			<forma_pagto>30</forma_pagto>
+			<pqtdparcelas></pqtdparcelas>
+			<bandeira></bandeira>
+			<frame50>0</frame50>
+			<instrucao_finalizacao></instrucao_finalizacao>
+			<instrucao_boleto></instrucao_boleto>
+			
+			<urlbotao1></urlbotao1>
+			<urlbotao2></urlbotao2>
+			<urlbotao3></urlbotao3>
+			<urlbotao4></urlbotao4>
+			<urlbotao5></urlbotao5>
+			<urlbotao6></urlbotao6>
+			<link_botao6></link_botao6>
+			<envia_email_cliente>0</envia_email_cliente>
+			<param_tipo_pedido></param_tipo_pedido>
+	</parametros_opcionais>
+	<controle_loja>
+			<teste>
+					<node_teste></node_teste>
+					<node_teste1></node_teste1>
+					<node_teste2></node_teste2>
+			</teste>			
+	</controle_loja>
+</pedido>
+

@@ -1,0 +1,51 @@
+table
+{
+	border-style: none; 
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+tr
+{
+	border-style: none; 
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+td
+{
+	border-style: none; 
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+
+.cp 
+{  
+	font: bold 10px Arial; 
+	color: black;
+	text-align: left;
+}
+.ti 
+{  
+	font: 9px Arial, Helvetica, sans-serif;
+}
+.ld
+{ 
+	font: bold 15px Arial; 
+	color: #000000;
+}
+.ct 
+{ 
+	FONT: 9px "Arial Narrow"; 
+	COLOR: #000033;
+	text-align: left;
+}
+.cn 
+{ 
+	FONT: 9px Arial; 
+	COLOR: black ;
+}
+.bc 
+{ 
+	font: bold 22px Arial; 
+	color: #000000;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pedido>
+	<numero_pedido>teste_5701</numero_pedido>
+	<valor_total_pedido>3990</valor_total_pedido>
+	<valor_frete_pedido>000</valor_frete_pedido>
+	<itens>
+		<quantidade_pedido>1</quantidade_pedido>
+		<item>
+			<codigo_item>2</codigo_item>
+			<descricao_item>Plano 45 dias + 45 dias</descricao_item>
+			<quantidade_item>1</quantidade_item>
+			<valor_unitario_item>3990</valor_unitario_item>
+		</item>
+	</itens>
+	<dados_cliente>
+		<pessoa_fisica>
+			<nome_pf>gh piugh</nome_pf>
+			<cpf_pf>30238240886</cpf_pf>
+			<data_nascimento_pf></data_nascimento_pf>
+			<sexo_pf></sexo_pf>
+			<estado_civil_pf></estado_civil_pf>
+			<profissao_pf></profissao_pf>
+			<email_pf></email_pf>
+			<telefone_pf></telefone_pf>
+			<fax_pf></fax_pf>
+		</pessoa_fisica>
+		<endereco_cobranca>
+			<logradouro_ec>Rua</logradouro_ec>
+			<endereco_ec>Professor Santiago Dantas</endereco_ec>
+			<numero_ec>192</numero_ec>
+			<complemento_ec></complemento_ec>
+			<bairro_ec>Real Parque</bairro_ec>
+			<cidade_ec>Sao Paulo</cidade_ec>
+			<cep_ec>05690010</cep_ec>
+			<estado_ec>SP</estado_ec>
+			<pais_ec>BR</pais_ec>
+		</endereco_cobranca>
+		<endereco_entrega>
+			<nome_responsavel_ee></nome_responsavel_ee>
+			<telefone_responsavel_ee></telefone_responsavel_ee>
+			<logradouro_ee>Rua</logradouro_ee>
+			<endereco_ee>Professor Santiago Dantas</endereco_ee>
+			<numero_ee>192</numero_ee>
+			<complemento_ee></complemento_ee>
+			<bairro_ee>Real Parque</bairro_ee>
+			<cidade_ee>Sao Paulo</cidade_ee>
+			<cep_ee>05690010</cep_ee>
+			<estado_ee>SP</estado_ee>
+			<pais_ee>BR</pais_ee>
+		</endereco_entrega>
+	</dados_cliente>
+	<setup_loja>
+		<urls>
+			<post_final>http://www.dietaesaude.com.br/Contratacao/SPFinal.aspx</post_final>
+			<link_retorno>http://www.dietaesaude.com.br/Contratacao/SPRetorno.aspx?PEDIDOID=5701</link_retorno>
+		</urls>
+	</setup_loja>
+	<parametros_opcionais>
+		<param_op1_ped></param_op1_ped>
+		<param_op2_ped></param_op2_ped>
+		<param_op3_ped></param_op3_ped>
+		<post_xml>N</post_xml>
+		<forma_pagto>32</forma_pagto>
+		<bandeira></bandeira>
+		<pqtdparcelas>1</pqtdparcelas>
+		<show_tela_finalizacao>1</show_tela_finalizacao>
+		<frame50>0</frame50>
+		<instrucao_finalizacao>O seu Pedido foi recebido pelo Dieta e Saude, apos a confirmacao do pagamento estaremos liberando o acesso aos nossos servicos.</instrucao_finalizacao>
+		<instrucao_boleto>Pagar em qualquer banco at a data de vencimento.#|Apos o vencimento, pagar em qualquer agencia do Banco Bradesco.|</instrucao_boleto>
+		<data_boleto>20050206</data_boleto>
+		<urlbotao1></urlbotao1>
+		<urlbotao2>https://homolog.smartpag.com.br/images/botao_dieta.jpg</urlbotao2>
+		<urlbotao3></urlbotao3>
+		<urlbotao4></urlbotao4>
+		<urlbotao5></urlbotao5>
+		<urlbotao6></urlbotao6>
+		<link_botao6></link_botao6>
+		<envia_email_cliente></envia_email_cliente>
+		<param_tipo_pedido></param_tipo_pedido>
+		<show_valor_total></show_valor_total>
+		<COB_QUANTIDADE>0</COB_QUANTIDADE>
+		<COB_LIQ_1PAR>2</COB_LIQ_1PAR>
+		<COB_DATA_BASE_AGENDAMENTO>20050202</COB_DATA_BASE_AGENDAMENTO>
+		<COB_RECORRENCIA>1</COB_RECORRENCIA>
+	</parametros_opcionais>
+</pedido>

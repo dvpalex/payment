@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<pedido>  
+  <numero_pedido>B800014850</numero_pedido>
+  <valor_total_pedido>6568</valor_total_pedido>
+  <valor_frete_pedido>1600</valor_frete_pedido>
+  <itens>
+    <quantidade_pedido>5</quantidade_pedido>
+    <item>
+      <codigo_item>0141</codigo_item>
+      <descricao_item>SW PO BAUNILHA	</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>6653</valor_unitario_item>
+    </item>
+    <item>
+      <codigo_item>01</codigo_item>
+      <descricao_item>Desconto</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>-3327</valor_unitario_item>
+    </item>
+    <item>
+      <codigo_item>02</codigo_item>
+      <descricao_item>Impostos</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>1026</valor_unitario_item>
+    </item>
+    <item>
+      <codigo_item>03</codigo_item>
+      <descricao_item>Manuseio</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>466</valor_unitario_item>
+    </item>
+    <item>
+      <codigo_item>04</codigo_item>
+      <descricao_item>Tarifa Bancaria</descricao_item>
+      <quantidade_item>1</quantidade_item>
+      <valor_unitario_item>150</valor_unitario_item>
+    </item>
+  </itens>
+  <dados_cliente>
+    <pessoa_fisica>
+      <nome_pf>RODOLPHO MARCELO F CUNHA</nome_pf>
+      <cpf_pf>11111111111</cpf_pf>
+    </pessoa_fisica>
+    <endereco_cobranca>
+      <endereco_ec>Qd SQS 113 Bloco J </endereco_ec>
+      <numero_ec>100</numero_ec>
+      <bairro_ec>Asa Sul</bairro_ec>
+      <cidade_ec>Brasilia</cidade_ec>
+      <cep_ec>70376100</cep_ec>
+      <estado_ec>DF</estado_ec>
+    </endereco_cobranca>
+    <endereco_entrega>
+      <endereco_ee>Qd SQS 113 Bloco J </endereco_ee>
+      <numero_ee>100</numero_ee>
+      <complemento_ee></complemento_ee>
+      <bairro_ee>Asa Sul</bairro_ee>
+      <cidade_ee>Brasilia</cidade_ee>
+      <cep_ee>70376100</cep_ee>
+      <estado_ee>DF</estado_ee>
+    </endereco_entrega>
+  </dados_cliente>
+  <setup_loja>
+    <urls>
+      <post_final>http://hrbl.america-net.com.br/HRBL/UI/Pagamento/fimHandShake.aspx</post_final>
+      <link_retorno>http://hrbl.america-net.com.br/HRBL/UI/Pagamento/fimHandShake.aspx</link_retorno>
+    </urls>
+  </setup_loja>
+  <parametros_opcionais>
+    <forma_pagto>32</forma_pagto>
+    <bandeira></bandeira>
+    <pqtdparcelas>1</pqtdparcelas>
+    <instrucao_boleto>Nao aceitar este boleto apos a data de vencimento # ** Tarifa Bancaria:R$ 1,50 # ** Valor da Nota Fiscal: 64,18</instrucao_boleto>
+    <data_boleto>20060904</data_boleto>
+    <show_valor_total>6568</show_valor_total>
+    <instrucao_finalizacao>O seu pedido @numero_pedido foi recebido com sucesso em @data_pedido.   Este e o numero de referencia para qualquer verificacao.   Pague atraves do Internet Banking ou em uma agencia bancaria da sua escolha.   A Herbalife recebera a confirmacao em ate 48 horas apos o pagamento e liberara o seu pedido automaticamente.</instrucao_finalizacao>
+  </parametros_opcionais> 
+</pedido>

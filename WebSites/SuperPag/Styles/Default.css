@@ -1,0 +1,28 @@
+﻿body 
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10px;
+	color: #111111;
+}
+
+input,select
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10px;
+}
+
+.fillRowTitle
+{
+	background-color: #e7e3e7;
+	color: #848284;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.instructions
+{
+	font-family: Verdana;
+	font-size: 7pt;
+	color: #666699;
+	line-height: 20px;	
+}

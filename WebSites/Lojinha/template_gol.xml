@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pedido>
+	<numero_pedido>106</numero_pedido>
+	<valor_total_pedido>182600</valor_total_pedido>
+	<valor_frete_pedido>0</valor_frete_pedido>
+	<itens>
+		<quantidade_pedido>1</quantidade_pedido>
+		<item>
+			<codigo_item>rec_car_2</codigo_item>
+			<descricao_item>Passagem aérea GOL no trecho SP-Congonhas(CGH) / Recife / SP-Congonhas(CGH); </descricao_item>
+			<quantidade_item>1</quantidade_item>
+			<valor_unitario_item>182600</valor_unitario_item>
+		</item>
+	</itens>
+	<dados_cliente>
+		<pessoa_fisica>
+			<nome_pf>Felipe Martinelli</nome_pf>
+			<cpf_pf>31522791833</cpf_pf>
+			<data_nascimento_pf>15092004</data_nascimento_pf>
+			<sexo_pf>m</sexo_pf>
+			<estado_civil_pf>aaaaaa</estado_civil_pf>
+			<profissao_pf></profissao_pf>
+			<email_pf>felipe.martinelli@ecorp.com.br</email_pf>
+			<telefone_pf>1111111111</telefone_pf>
+			<fax_pf></fax_pf>
+		</pessoa_fisica>
+		<endereco_cobranca>
+			<logradouro_ec>Rua</logradouro_ec>
+			<endereco_ec>aaaaaa</endereco_ec>
+			<numero_ec>aaaaa</numero_ec>
+			<complemento_ec>aaaaa</complemento_ec>
+			<bairro_ec>aaaaa</bairro_ec>
+			<cidade_ec>aaaaaaa</cidade_ec>
+			<cep_ec>12345123</cep_ec>
+			<estado_ec>aaaaa</estado_ec>
+			<pais_ec>BR</pais_ec>
+		</endereco_cobranca>
+		<endereco_entrega>
+			<nome_responsavel_ee>Felipe Martinelli</nome_responsavel_ee>
+			<telefone_responsavel_ee>1111111111</telefone_responsavel_ee>
+			<logradouro_ee>Rua</logradouro_ee>
+			<endereco_ee>aaaaaa</endereco_ee>
+			<numero_ee>aaaaa</numero_ee>
+			<complemento_ee>aaaaa</complemento_ee>
+			<bairro_ee>aaaaa</bairro_ee>
+			<cidade_ee>aaaaaaa</cidade_ee>
+			<cep_ee>12345123</cep_ee>
+			<estado_ee>aaaaa</estado_ee>
+			<pais_ee>BR</pais_ee>
+		</endereco_entrega>
+	</dados_cliente>
+<setup_loja>
+<urls>
+<post_final>http://www.minhasviagens.com.br/frmRetornoPagamento.aspx</post_final>
+<link_retorno>http://www.minhasviagens.com.br/frmCheckoutFinal.aspx</link_retorno>
+</urls>
+</setup_loja>
+<parametros_opcionais>
+<param_op1_ped>PARAM OP 1 PED</param_op1_ped>
+<param_op2_ped>PARAM OP 2 PED</param_op2_ped>
+<param_op3_ped>PARAM OP 3 PED</param_op3_ped>
+<post_xml>S</post_xml>
+<forma_pagto>2</forma_pagto>
+<bandeira></bandeira>
+<pqtdparcelas></pqtdparcelas>
+<show_tela_finalizacao>0</show_tela_finalizacao>
+<frame50>1</frame50>
+<instrucao_finalizacao>O seu pedido foi recebido pelo Total Fit, apos a confirmacao do pagamento estaremos entregando as suas mercadorias.</instrucao_finalizacao>
+<instrucao_boleto></instrucao_boleto>
+<data_boleto></data_boleto>
+<urlbotao1></urlbotao1>
+<urlbotao2></urlbotao2>
+<urlbotao3></urlbotao3>
+<urlbotao4></urlbotao4>
+<urlbotao5></urlbotao5>
+<urlbotao6></urlbotao6>
+<link_botao6></link_botao6>
+<envia_email_cliente>0</envia_email_cliente>
+<param_tipo_pedido></param_tipo_pedido>
+<show_valor_total></show_valor_total>
+</parametros_opcionais>
+<controle_loja>
+<teste>
+<node_teste>1</node_teste>
+<node_teste1>2</node_teste1>
+<node_teste2>3</node_teste2>
+</teste>
+</controle_loja>
+</pedido>

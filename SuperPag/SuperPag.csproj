@@ -1,0 +1,493 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E95DEDC1-0E46-4194-8280-069E9C8B9353}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperPag</RootNamespace>
+    <AssemblyName>SuperPag</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Itaucripto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Interop.Itaucripto.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Componentes\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Componentes\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Componentes\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Neodynamic.WebControls.BarcodeProfessional, Version=5.0.2000.0, Culture=neutral, PublicKeyToken=c6b33c3093a0d4cd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Neodynamic.WebControls.BarcodeProfessional.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agents\Agent.cs" />
+    <Compile Include="Agents\ContaCorrente\ContaCorrente.cs" />
+    <Compile Include="Agents\VisaMoset3\Messages\VBVCaptureReturn.cs" />
+    <Compile Include="Agents\VisaMoset3\moset.cs" />
+    <Compile Include="Agents\VisaMoset3\Servico.cs" />
+    <Compile Include="Agents\VBV3\Messages\VBVCancelReturn.cs" />
+    <Compile Include="Agents\VBV3\Messages\VBVCaptureReturn.cs" />
+    <Compile Include="Agents\VBV3\Messages\VBVInquireReturn.cs" />
+    <Compile Include="Agents\VBV3\VBV.cs" />
+    <Compile Include="Agents\IAgent.cs" />
+    <Compile Include="Agents\Sitef\Sitef.cs" />
+    <Compile Include="Agents\WebAgent.cs" />
+    <Compile Include="Agents\BB\Sonda.cs" />
+    <Compile Include="Agents\Boleto\Boleto.cs" />
+    <Compile Include="Agents\Boleto\BoletoBB.cs" />
+    <Compile Include="Agents\Boleto\BoletoBradesco.cs" />
+    <Compile Include="Agents\Boleto\BoletoHSBC.cs" />
+    <Compile Include="Agents\Boleto\BoletoItau.cs" />
+    <Compile Include="Agents\Boleto\BoletosBancariosInfo.cs" />
+    <Compile Include="Agents\Boleto\Configuration.cs" />
+    <Compile Include="Agents\Boleto\MPaymentAttemptBoletoReturn.cs" />
+    <Compile Include="Agents\Boleto\PaymentAttemptBoletoReturn.cs" />
+    <Compile Include="Agents\Boleto\Servico.cs" />
+    <Compile Include="Agents\DepId\Configuration.cs" />
+    <Compile Include="Agents\DepId\DepId.cs" />
+    <Compile Include="Agents\DepId\DepIdBradesco.cs" />
+    <Compile Include="Agents\DepId\Messages\MDeposit.cs" />
+    <Compile Include="Agents\DepId\Messages\MPaymentAttemptDepIdReturn.cs" />
+    <Compile Include="Agents\DepId\PaymentAttemptDepId.cs" />
+    <Compile Include="Agents\DepId\PaymentAttemptDepIdReturn.cs" />
+    <Compile Include="Agents\ItauShopLine\Crypto.cs" />
+    <Compile Include="Agents\ItauShopLine\Sonda.cs" />
+    <Compile Include="Agents\KomerciWS\KomerciWS.cs" />
+    <Compile Include="Agents\KomerciWS\Messages\AUTHORIZATION.cs" />
+    <Compile Include="Agents\KomerciWS\Messages\CONFIRMATION.cs" />
+    <Compile Include="Agents\Komerci\Komerci.cs" />
+    <Compile Include="Agents\PaymentClientVirtual\PaymentClientVirtual.cs" />
+    <Compile Include="Agents\PaymentClientVirtual\Servico.cs" />
+    <Compile Include="Agents\VBV\Helper\ParseHTMLVBV.cs" />
+    <Compile Include="Agents\VBV\Messages\VBVCancelReturn.cs" />
+    <Compile Include="Agents\VBV\Messages\VBVCaptureReturn.cs" />
+    <Compile Include="Agents\VBV\Messages\VBVInquireReturn.cs" />
+    <Compile Include="Agents\VBV\VBV.cs" />
+    <Compile Include="Agents\VisaMoset\moset.cs" />
+    <Compile Include="Agents\VisaMoset\Servico.cs" />
+    <Compile Include="Business\Cnab.cs" />
+    <Compile Include="Business\CnabControleEntrada.cs" />
+    <Compile Include="Business\CnabControleSaida.cs" />
+    <Compile Include="Business\Consumer.cs" />
+    <Compile Include="Business\ConsumerAddress.cs" />
+    <Compile Include="Business\CSUControleEntradaContaCorrente.cs" />
+    <Compile Include="Business\CSUControleSaidaContaCorrente.cs" />
+    <Compile Include="Business\Ensure.cs" />
+    <Compile Include="Business\Extrato.cs" />
+    <Compile Include="Business\GenericHelper.cs" />
+    <Compile Include="Business\HandshakeConfiguration.cs" />
+    <Compile Include="Business\HandshakeConfigurationHtml.cs" />
+    <Compile Include="Business\HandshakeConfigurationXml.cs" />
+    <Compile Include="Business\MembershipAdm\MembershipAdm.cs" />
+    <Compile Include="Business\MembershipAdm\RolesAdm.cs" />
+    <Compile Include="Business\Membership\ControllerMembershipProvider.cs" />
+    <Compile Include="Business\Membership\ControllerRoleProvider.cs" />
+    <Compile Include="Agents\DepId\Messages\MPaymentAttemptDepId.cs" />
+    <Compile Include="Business\Messages\ControleEntradaContaCorrente.cs" />
+    <Compile Include="Business\Messages\ControleSaidaContaCorrente.cs" />
+    <Compile Include="Business\Messages\MOcorrencias.cs" />
+    <Compile Include="Business\Messages\MRelatorioContabilizacaoMatera.cs" />
+    <Compile Include="Business\Messages\MStatusSuperPag.cs" />
+    <Compile Include="Business\Messages\MCnabControleEntrada.cs" />
+    <Compile Include="Business\Messages\MCnabControleSaida.cs" />
+    <Compile Include="Business\Messages\MCSUControleEntradaContaCorrente.cs" />
+    <Compile Include="Business\Messages\MCSUControleSaidaContaCorrente.cs" />
+    <Compile Include="Business\Messages\MExtrato2.cs" />
+    <Compile Include="Business\Messages\EnumTranslate.cs" />
+    <Compile Include="Business\Messages\MBilling.cs" />
+    <Compile Include="Business\Messages\MBillingSchedule.cs" />
+    <Compile Include="Business\Messages\MConsumer.cs" />
+    <Compile Include="Business\Messages\MConsumerAddress.cs" />
+    <Compile Include="Business\Messages\MExtrato.cs" />
+    <Compile Include="Business\Messages\MHandshakeConfiguration.cs" />
+    <Compile Include="Business\Messages\MHandshakeConfigurationHtml.cs" />
+    <Compile Include="Business\Messages\MHandshakeConfigurationXml.cs" />
+    <Compile Include="Business\Messages\MHandshakeSession.cs" />
+    <Compile Include="Business\Messages\MHandshakeSessionLog.cs" />
+    <Compile Include="Business\Messages\MOcorrencia.cs" />
+    <Compile Include="Business\Messages\MOrder.cs" />
+    <Compile Include="Business\Messages\MOrderCreditCard.cs" />
+    <Compile Include="Business\Messages\MOrderDetailItem.cs" />
+    <Compile Include="Business\Messages\MOrderInstallment.cs" />
+    <Compile Include="Business\Messages\MOrderItem.cs" />
+    <Compile Include="Business\Messages\MPages.cs" />
+    <Compile Include="Business\Messages\MPaymentAgent.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetup.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupABN.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupBB.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupBoleto.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupBradesco.cs" />
+    <Compile Include="Agents\DepId\Messages\MPaymentAgentSetupDepId.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupItauShopline.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupKomerci.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupMoset.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupPaymentClientVirtual.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupVBV.cs" />
+    <Compile Include="Business\Messages\MPaymentAttempt.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptABN.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptBB.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptBoleto.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptBradesco.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptContaCorrente.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptItauShopline.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptKomerci.cs" />
+    <Compile Include="Business\Messages\MPaymentAttemptVBV.cs" />
+    <Compile Include="Business\Messages\MPaymentForm.cs" />
+    <Compile Include="Business\Messages\MPaymentFormGroup.cs" />
+    <Compile Include="Business\Messages\MPaymentSummary.cs" />
+    <Compile Include="Business\Messages\MRecurrence.cs" />
+    <Compile Include="Business\Messages\MRelatorioEnvioCnab.cs" />
+    <Compile Include="Business\Messages\MRelatorioEnvioCSU.cs" />
+    <Compile Include="Business\Messages\MRelatorioRecebimentoCnab.cs" />
+    <Compile Include="Business\Messages\MRelatorioRecebimentoCSU.cs" />
+    <Compile Include="Business\Messages\MRelatorioResumoTransacoes.cs" />
+    <Compile Include="Business\Messages\MRole.cs" />
+    <Compile Include="Business\Messages\MSchedule.cs" />
+    <Compile Include="Business\Messages\MServicesConfiguration.cs" />
+    <Compile Include="Business\Messages\MSPLegacyPaymentForm.cs" />
+    <Compile Include="Business\Messages\MSPLegacyPaymentGroup.cs" />
+    <Compile Include="Business\Messages\MSPLegacyStore.cs" />
+    <Compile Include="Business\Messages\MStore.cs" />
+    <Compile Include="Business\Messages\MStorePaymentForm.cs" />
+    <Compile Include="Business\Messages\MStorePaymentInstallment.cs" />
+    <Compile Include="Business\Messages\MUsersInStore.cs" />
+    <Compile Include="Business\Messages\MWorkflowOrderStatus.cs" />
+    <Compile Include="Business\Messages\MPermissionPages.cs" />
+    <Compile Include="Business\Messages\MxmlPontoCred.cs" />
+    <Compile Include="Business\Messages\MRelatorios.cs" />
+    <Compile Include="Business\MPermissionInRoles.cs" />
+    <Compile Include="Business\Ocorrencia.cs" />
+    <Compile Include="Business\Order.cs" />
+    <Compile Include="Business\OrderItem.cs" />
+    <Compile Include="Business\Pages.cs" />
+    <Compile Include="Business\PaymentAgent.cs" />
+    <Compile Include="Business\PaymentAgentSetup.cs" />
+    <Compile Include="Business\PaymentAgentSetupABN.cs" />
+    <Compile Include="Business\PaymentAgentSetupBB.cs" />
+    <Compile Include="Business\PaymentAgentSetupBoleto.cs" />
+    <Compile Include="Business\PaymentAgentSetupBradesco.cs" />
+    <Compile Include="Business\PaymentAgentSetupDebitoContaCorrente.cs" />
+    <Compile Include="Business\PaymentAgentSetupItaushopline.cs" />
+    <Compile Include="Business\PaymentAgentSetupKomerci.cs" />
+    <Compile Include="Business\PaymentAgentSetupMoset.cs" />
+    <Compile Include="Business\PaymentAgentSetupPaymentClientVirtual.cs" />
+    <Compile Include="Business\PaymentAgentSetupVBV.cs" />
+    <Compile Include="Business\PaymentAttempt.cs" />
+    <Compile Include="Business\PaymentAttemptABN.cs" />
+    <Compile Include="Business\PaymentAttemptBBPag.cs" />
+    <Compile Include="Business\PaymentAttemptBoleto.cs" />
+    <Compile Include="Business\PaymentAttemptContaCorrente.cs" />
+    <Compile Include="Business\PaymentAttemptItauShopLine.cs" />
+    <Compile Include="Business\PaymentAttemptKomerci.cs" />
+    <Compile Include="Business\PaymentAttemptVBV.cs" />
+    <Compile Include="Business\PaymentForm.cs" />
+    <Compile Include="Business\PaymentReports.cs" />
+    <Compile Include="Business\PermissionPages.cs" />
+    <Compile Include="Business\Recurrence.cs" />
+    <Compile Include="Business\Role.cs" />
+    <Compile Include="Business\Schedule.cs" />
+    <Compile Include="Business\ServerHttpRequisition.cs" />
+    <Compile Include="Business\Store.cs" />
+    <Compile Include="Business\StorePaymentForm.cs" />
+    <Compile Include="Business\StorePaymentInstallment.cs" />
+    <Compile Include="Business\User.cs" />
+    <Compile Include="Business\xmlPontoCred.cs" />
+    <Compile Include="Data\DataFactory.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptDepIdReturnChk.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptDepIdReturn.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptDepIdReturnHeader.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptVBVLog.cs" />
+    <Compile Include="Data\Interfaces\IExtratoFinanceiro2.cs" />
+    <Compile Include="Data\Interfaces\IUsersInRoles.cs" />
+    <Compile Include="Data\Interfaces\IRoles.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptDepId.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupDepId.cs" />
+    <Compile Include="Data\Interfaces\IBilling.cs" />
+    <Compile Include="Data\Interfaces\IBillingSchedule.cs" />
+    <Compile Include="Data\Interfaces\IConsumer.cs" />
+    <Compile Include="Data\Interfaces\IConsumerAddress.cs" />
+    <Compile Include="Data\Interfaces\IHandshakeConfiguration.cs" />
+    <Compile Include="Data\Interfaces\IHandshakeConfigurationHtml.cs" />
+    <Compile Include="Data\Interfaces\IHandshakeConfigurationXml.cs" />
+    <Compile Include="Data\Interfaces\IHandshakeSession.cs" />
+    <Compile Include="Data\Interfaces\IHandshakeSessionLog.cs" />
+    <Compile Include="Data\Interfaces\IOrder.cs" />
+    <Compile Include="Data\Interfaces\IOrderCreditCard.cs" />
+    <Compile Include="Data\Interfaces\IOrderInstallment.cs" />
+    <Compile Include="Data\Interfaces\IOrderItem.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgent.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetup.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupABN.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupBB.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupBoleto.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupBradesco.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupItauShopline.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupKomerci.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupMoset.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupPaymentClientVirtual.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAgentSetupVBV.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttempt.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptABN.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptBB.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptBoleto.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptBoletoReturn.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptBoletoReturnHeader.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptBradesco.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptItauShopline.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptKomerci.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptKomerciWS.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptMoset.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptPaymentClientVirtual.cs" />
+    <Compile Include="Data\Interfaces\IPaymentAttemptVBV.cs" />
+    <Compile Include="Data\Interfaces\IPaymentForm.cs" />
+    <Compile Include="Data\Interfaces\IPaymentFormGroup.cs" />
+    <Compile Include="Data\Interfaces\IPaymentSummary.cs" />
+    <Compile Include="Data\Interfaces\IRecurrence.cs" />
+    <Compile Include="Data\Interfaces\ISchedule.cs" />
+    <Compile Include="Data\Interfaces\IServiceEmailPaymentForm.cs" />
+    <Compile Include="Data\Interfaces\IServiceFinalizationPost.cs" />
+    <Compile Include="Data\Interfaces\IServicePaymentPost.cs" />
+    <Compile Include="Data\Interfaces\IServicesConfiguration.cs" />
+    <Compile Include="Data\Interfaces\ISPLegacyPaymentForm.cs" />
+    <Compile Include="Data\Interfaces\ISPLegacyPaymentGroup.cs" />
+    <Compile Include="Data\Interfaces\ISPLegacyStore.cs" />
+    <Compile Include="Data\Interfaces\IStore.cs" />
+    <Compile Include="Data\Interfaces\IStorePaymentForm.cs" />
+    <Compile Include="Data\Interfaces\IStorePaymentInstallment.cs" />
+    <Compile Include="Data\Interfaces\IUsers.cs" />
+    <Compile Include="Data\Interfaces\IUsersInStore.cs" />
+    <Compile Include="Data\Interfaces\IWorkflowOrderStatus.cs" />
+    <Compile Include="Business\Messages\MPaymentAgentSetupDebitoContaCorrente.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptDepIdReturnChk.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptDepIdReturnHeader.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptDepIdReturn.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptVBVLog.cs" />
+    <Compile Include="Data\Messages\DExtratoFinanceiro2.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptDepId.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupDepId.cs" />
+    <Compile Include="Data\Messages\DBilling.cs" />
+    <Compile Include="Data\Messages\DBillingSchedule.cs" />
+    <Compile Include="Data\Messages\DConsumer.cs" />
+    <Compile Include="Data\Messages\DConsumerAddress.cs" />
+    <Compile Include="Data\Messages\DHandshakeConfiguration.cs" />
+    <Compile Include="Data\Messages\DHandshakeConfigurationHtml.cs" />
+    <Compile Include="Data\Messages\DHandshakeConfigurationXml.cs" />
+    <Compile Include="Data\Messages\DHandshakeSession.cs" />
+    <Compile Include="Data\Messages\DHandshakeSessionLog.cs" />
+    <Compile Include="Data\Messages\DOrder.cs" />
+    <Compile Include="Data\Messages\DOrderCreditCard.cs" />
+    <Compile Include="Data\Messages\DOrderInstallment.cs" />
+    <Compile Include="Data\Messages\DOrderItem.cs" />
+    <Compile Include="Data\Messages\DPaymentAgent.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetup.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupABN.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupBB.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupBoleto.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupBradesco.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupItauShopline.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupKomerci.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupMoset.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupPaymentClientVirtual.cs" />
+    <Compile Include="Data\Messages\DPaymentAgentSetupVBV.cs" />
+    <Compile Include="Data\Messages\DPaymentAttempt.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptABN.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptBB.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptBoleto.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptBoletoReturn.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptBoletoReturnHeader.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptBradesco.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptItauShopline.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptKomerci.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptKomerciWS.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptMoset.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptPaymentClientVirtual.cs" />
+    <Compile Include="Data\Messages\DPaymentAttemptVBV.cs" />
+    <Compile Include="Data\Messages\DPaymentForm.cs" />
+    <Compile Include="Data\Messages\DPaymentFormGroup.cs" />
+    <Compile Include="Data\Messages\DPaymentSummary.cs" />
+    <Compile Include="Data\Messages\DRecurrence.cs" />
+    <Compile Include="Data\Messages\DRoles.cs" />
+    <Compile Include="Data\Messages\DSchedule.cs" />
+    <Compile Include="Data\Messages\DServiceEmailPaymentForm.cs" />
+    <Compile Include="Data\Messages\DServiceFinalizationPost.cs" />
+    <Compile Include="Data\Messages\DServicePaymentPost.cs" />
+    <Compile Include="Data\Messages\DServicesConfiguration.cs" />
+    <Compile Include="Data\Messages\DSPLegacyPaymentForm.cs" />
+    <Compile Include="Data\Messages\DSPLegacyPaymentGroup.cs" />
+    <Compile Include="Data\Messages\DSPLegacyStore.cs" />
+    <Compile Include="Data\Messages\DStore.cs" />
+    <Compile Include="Data\Messages\DStorePaymentForm.cs" />
+    <Compile Include="Data\Messages\DStorePaymentInstallment.cs" />
+    <Compile Include="Data\Messages\DUsers.cs" />
+    <Compile Include="Data\Messages\DUsersInRoles.cs" />
+    <Compile Include="Data\Messages\DUsersInStore.cs" />
+    <Compile Include="Data\Messages\DWorkflowOrderStatus.cs" />
+    <Compile Include="Enuns.cs" />
+    <Compile Include="Handshake\Helper.cs" />
+    <Compile Include="Handshake\HelperHtml.cs" />
+    <Compile Include="Handshake\HelperService.cs" />
+    <Compile Include="Handshake\HelperXml.cs" />
+    <Compile Include="Handshake\Html\Handshake.cs" />
+    <Compile Include="Handshake\RecurrenceParams.cs" />
+    <Compile Include="Handshake\Service\Cancel.cs" />
+    <Compile Include="Handshake\Service\Check.cs" />
+    <Compile Include="Handshake\Service\Reprocess.cs" />
+    <Compile Include="Handshake\Service\Request.cs" />
+    <Compile Include="Handshake\Service\Update.cs" />
+    <Compile Include="Handshake\Xml\Handshake.cs" />
+    <Compile Include="Helper\ClientHttpRequisition.cs" />
+    <Compile Include="Business\Messages\MCnab.cs" />
+    <Compile Include="Helper\Email\Pop3Client.cs" />
+    <Compile Include="Helper\Email\Pop3Component.cs" />
+    <Compile Include="Helper\Email\Pop3ConnectException.cs" />
+    <Compile Include="Helper\Email\Pop3Credential.cs" />
+    <Compile Include="Helper\Email\Pop3LoginException.cs" />
+    <Compile Include="Helper\Email\Pop3Message.cs" />
+    <Compile Include="Helper\Email\Pop3MessageComponents.cs" />
+    <Compile Include="Helper\Email\Pop3MessageException.cs" />
+    <Compile Include="Helper\Email\Pop3MissingBoundaryException.cs" />
+    <Compile Include="Helper\Email\Pop3Parse.cs" />
+    <Compile Include="Helper\Email\Pop3ReceiveException.cs" />
+    <Compile Include="Helper\Email\Pop3SendException.cs" />
+    <Compile Include="Helper\Email\Pop3StateObject.cs" />
+    <Compile Include="Helper\Email\Pop3Statics.cs" />
+    <Compile Include="Helper\Ensure.cs" />
+    <Compile Include="Helper\GenericHelper.cs" />
+    <Compile Include="Helper\ParseHTML\Attribute.cs" />
+    <Compile Include="Helper\ParseHTML\AttributeList.cs" />
+    <Compile Include="Helper\ParseHTML\Parse.cs" />
+    <Compile Include="Helper\ParseHTML\ParseHTML.cs" />
+    <Compile Include="Helper\ServerHttpHtmlRequisition.cs" />
+    <Compile Include="Helper\ServerHttpRequisition.cs" />
+    <Compile Include="Helper\XML\Parse.cs" />
+    <Compile Include="Helper\XML\Request.cs" />
+    <Compile Include="Helper\XML\Response.cs" />
+    <Compile Include="Helper\XML\Update.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Enuns.cs" />
+    <Compile Include="Services\Finalization.cs" />
+    <Compile Include="Web References\br.com.redecard.ecommerce\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Business\Messages\EnumTranslate.resx">
+      <DependentUpon>EnumTranslate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://ecommerce.redecard.com.br/pos_virtual/wskomerci/cap.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\br.com.redecard.ecommerce\</RelPath>
+      <UpdateFromURL>https://ecommerce.redecard.com.br/pos_virtual/wskomerci/cap.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SuperPag_br_com_redecard_ecommerce_komerci_capture</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Helper\XML\ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\br.com.redecard.ecommerce\cap.disco" />
+    <None Include="Web References\br.com.redecard.ecommerce\cap.wsdl" />
+    <None Include="Web References\br.com.redecard.ecommerce\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperPag.Framework\SuperPag.Framework.csproj">
+      <Project>{FC32C14C-F516-4BC2-88CC-C500F70FF278}</Project>
+      <Name>SuperPag.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\b.JPG" />
+    <EmbeddedResource Include="Image\p.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\boleto.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\Cnab\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

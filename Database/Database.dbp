@@ -1,0 +1,32 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "Database"
+   MSDTVersion = "80"
+   DefDBRef = "vss01.SUPERPAG_DEV.superpag"
+   SccProjectName = "SAK"
+   SccLocalPath = "SAK"
+   SccAuxPath = "SAK"
+   SccProvider = "SAK"
+   Begin Folder = "Change Scripts"
+      Script = "DB_SUPERPAG_SQLSERVER_UPGRADE_v2.sql"
+      Script = "DB_SUPERPAG_SQLSERVER_UPGRADE_v3.sql"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "DB_SUPERPAG_SQLSERVER_FULL_v1.sql"
+      Script = "DB_SUPERPAG_SQLSERVER_FULL_v2.sql"
+      Script = "DB_SUPERPAG_SQLSERVER_FULL_v3.sql"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "vss01.SUPERPAG_DEV.superpag"
+         ConnectStr = "Data Source=VSS01;Initial Catalog=SUPERPAG_DEV;User ID=superpag"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 5
+      End
+      Begin DBRefNode = "vss01.SUPERPAG_HOMOLOG.superpag_homolog"
+         ConnectStr = "Data Source=VSS01;Initial Catalog=SUPERPAG_HOMOLOG;Persist Security Info=True;User ID=superpag_homolog"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 5
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

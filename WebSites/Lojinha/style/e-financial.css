@@ -1,0 +1,24 @@
+.menu {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.titulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; LINE-HEIGHT: 30px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.menu A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.menu A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial; TEXT-DECORATION: none
+}
+.menu2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666
+}
+.menu2 A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.menu2 A {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; TEXT-DECORATION: none
+}
